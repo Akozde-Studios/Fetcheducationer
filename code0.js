@@ -2298,7 +2298,7 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.Is_32someone_63_46_46_46Code.userFunc0xcda6a8 = function GDJSInlineCode(runtimeScene, objects) {
+};gdjs.Is_32someone_63_46_46_46Code.userFunc0x1294eb0 = function GDJSInlineCode(runtimeScene, objects) {
 "use strict";
 // İlk olarak, giriş kutusundan metni alıyorum ve temizliyorum.
 let girdimeti = runtimeScene.getObjects("NewTextInput2")[0].getString();
@@ -2349,7 +2349,7 @@ gdjs.copyArray(asyncObjectsList.getObjects("NewTextInput2"), gdjs.Is_32someone_6
 
 
 const objects = gdjs.Is_32someone_63_46_46_46Code.GDNewTextInput2Objects3;
-gdjs.Is_32someone_63_46_46_46Code.userFunc0xcda6a8(runtimeScene, objects);
+gdjs.Is_32someone_63_46_46_46Code.userFunc0x1294eb0(runtimeScene, objects);
 
 }
 
@@ -2391,7 +2391,7 @@ gdjs.copyArray(asyncObjectsList.getObjects("NewTextInput2"), gdjs.Is_32someone_6
 }
 
 
-};gdjs.Is_32someone_63_46_46_46Code.asyncCallback22458156 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Is_32someone_63_46_46_46Code.asyncCallback22458860 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Is_32someone_63_46_46_46Code.localVariables);
 {runtimeScene.getScene().getVariables().getFromIndex(117).setBoolean(false);
 }
@@ -2400,7 +2400,7 @@ asyncObjectsList.restoreLocalVariablesContainers(gdjs.Is_32someone_63_46_46_46Co
 gdjs.Is_32someone_63_46_46_46Code.eventsList6(runtimeScene, asyncObjectsList);} //End of subevents
 gdjs.Is_32someone_63_46_46_46Code.localVariables.length = 0;
 }
-gdjs.Is_32someone_63_46_46_46Code.idToCallbackMap.set(22458156, gdjs.Is_32someone_63_46_46_46Code.asyncCallback22458156);
+gdjs.Is_32someone_63_46_46_46Code.idToCallbackMap.set(22458860, gdjs.Is_32someone_63_46_46_46Code.asyncCallback22458860);
 gdjs.Is_32someone_63_46_46_46Code.eventsList7 = function(runtimeScene) {
 
 {
@@ -2412,14 +2412,14 @@ const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Is_32someone_63_46_46_46Code.localVariables);
 for (const obj of gdjs.Is_32someone_63_46_46_46Code.GDNewText2Objects1) asyncObjectsList.addObject("NewText2", obj);
 for (const obj of gdjs.Is_32someone_63_46_46_46Code.GDNewTextInput2Objects1) asyncObjectsList.addObject("NewTextInput2", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1.65), (runtimeScene) => (gdjs.Is_32someone_63_46_46_46Code.asyncCallback22458156(runtimeScene, asyncObjectsList)), 22458156, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1.65), (runtimeScene) => (gdjs.Is_32someone_63_46_46_46Code.asyncCallback22458860(runtimeScene, asyncObjectsList)), 22458860, asyncObjectsList);
 }
 }
 
 }
 
 
-};gdjs.Is_32someone_63_46_46_46Code.userFunc0x1052e10 = function GDJSInlineCode(runtimeScene, objects) {
+};gdjs.Is_32someone_63_46_46_46Code.userFunc0x1eedb78 = function GDJSInlineCode(runtimeScene, objects) {
 "use strict";
 // İlk olarak, giriş kutusundan metni alıyorum ve temizliyorum...
 let girdimeti = runtimeScene.getVariables().get("İlkSorudaAranan")[0].getString();
@@ -2471,7 +2471,7 @@ gdjs.copyArray(asyncObjectsList.getObjects("NewTextInput2"), gdjs.Is_32someone_6
 
 
 const objects = gdjs.Is_32someone_63_46_46_46Code.GDNewTextInput2Objects3;
-gdjs.Is_32someone_63_46_46_46Code.userFunc0x1052e10(runtimeScene, objects);
+gdjs.Is_32someone_63_46_46_46Code.userFunc0x1eedb78(runtimeScene, objects);
 
 }
 
@@ -2505,7 +2505,7 @@ gdjs.copyArray(asyncObjectsList.getObjects("NewText2"), gdjs.Is_32someone_63_46_
 }
 
 
-};gdjs.Is_32someone_63_46_46_46Code.asyncCallback22472396 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Is_32someone_63_46_46_46Code.asyncCallback22473100 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Is_32someone_63_46_46_46Code.localVariables);
 {runtimeScene.getScene().getVariables().getFromIndex(117).setBoolean(false);
 }
@@ -2514,7 +2514,7 @@ asyncObjectsList.restoreLocalVariablesContainers(gdjs.Is_32someone_63_46_46_46Co
 gdjs.Is_32someone_63_46_46_46Code.eventsList8(runtimeScene, asyncObjectsList);} //End of subevents
 gdjs.Is_32someone_63_46_46_46Code.localVariables.length = 0;
 }
-gdjs.Is_32someone_63_46_46_46Code.idToCallbackMap.set(22472396, gdjs.Is_32someone_63_46_46_46Code.asyncCallback22472396);
+gdjs.Is_32someone_63_46_46_46Code.idToCallbackMap.set(22473100, gdjs.Is_32someone_63_46_46_46Code.asyncCallback22473100);
 gdjs.Is_32someone_63_46_46_46Code.eventsList9 = function(runtimeScene) {
 
 {
@@ -2526,14 +2526,14 @@ const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Is_32someone_63_46_46_46Code.localVariables);
 for (const obj of gdjs.Is_32someone_63_46_46_46Code.GDNewText2Objects1) asyncObjectsList.addObject("NewText2", obj);
 for (const obj of gdjs.Is_32someone_63_46_46_46Code.GDNewTextInput2Objects1) asyncObjectsList.addObject("NewTextInput2", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1.65), (runtimeScene) => (gdjs.Is_32someone_63_46_46_46Code.asyncCallback22472396(runtimeScene, asyncObjectsList)), 22472396, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1.65), (runtimeScene) => (gdjs.Is_32someone_63_46_46_46Code.asyncCallback22473100(runtimeScene, asyncObjectsList)), 22473100, asyncObjectsList);
 }
 }
 
 }
 
 
-};gdjs.Is_32someone_63_46_46_46Code.userFunc0xf151d0 = function GDJSInlineCode(runtimeScene, objects) {
+};gdjs.Is_32someone_63_46_46_46Code.userFunc0xf4c6f0 = function GDJSInlineCode(runtimeScene, objects) {
 "use strict";
 // İlk olarak, giriş kutusundan metni alıyorum ve temizliyorum.
 let girdimeti = runtimeScene.getObjects("NewTextInput2")[0].getString();
@@ -2584,7 +2584,7 @@ gdjs.copyArray(asyncObjectsList.getObjects("NewTextInput2"), gdjs.Is_32someone_6
 
 
 const objects = gdjs.Is_32someone_63_46_46_46Code.GDNewTextInput2Objects3;
-gdjs.Is_32someone_63_46_46_46Code.userFunc0xf151d0(runtimeScene, objects);
+gdjs.Is_32someone_63_46_46_46Code.userFunc0xf4c6f0(runtimeScene, objects);
 
 }
 
@@ -2626,7 +2626,7 @@ gdjs.copyArray(asyncObjectsList.getObjects("NewTextInput2"), gdjs.Is_32someone_6
 }
 
 
-};gdjs.Is_32someone_63_46_46_46Code.asyncCallback22480052 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Is_32someone_63_46_46_46Code.asyncCallback22480756 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Is_32someone_63_46_46_46Code.localVariables);
 {runtimeScene.getScene().getVariables().getFromIndex(117).setBoolean(false);
 }
@@ -2635,7 +2635,7 @@ asyncObjectsList.restoreLocalVariablesContainers(gdjs.Is_32someone_63_46_46_46Co
 gdjs.Is_32someone_63_46_46_46Code.eventsList10(runtimeScene, asyncObjectsList);} //End of subevents
 gdjs.Is_32someone_63_46_46_46Code.localVariables.length = 0;
 }
-gdjs.Is_32someone_63_46_46_46Code.idToCallbackMap.set(22480052, gdjs.Is_32someone_63_46_46_46Code.asyncCallback22480052);
+gdjs.Is_32someone_63_46_46_46Code.idToCallbackMap.set(22480756, gdjs.Is_32someone_63_46_46_46Code.asyncCallback22480756);
 gdjs.Is_32someone_63_46_46_46Code.eventsList11 = function(runtimeScene) {
 
 {
@@ -2647,7 +2647,7 @@ const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Is_32someone_63_46_46_46Code.localVariables);
 for (const obj of gdjs.Is_32someone_63_46_46_46Code.GDNewText2Objects1) asyncObjectsList.addObject("NewText2", obj);
 for (const obj of gdjs.Is_32someone_63_46_46_46Code.GDNewTextInput2Objects1) asyncObjectsList.addObject("NewTextInput2", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1.65), (runtimeScene) => (gdjs.Is_32someone_63_46_46_46Code.asyncCallback22480052(runtimeScene, asyncObjectsList)), 22480052, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1.65), (runtimeScene) => (gdjs.Is_32someone_63_46_46_46Code.asyncCallback22480756(runtimeScene, asyncObjectsList)), 22480756, asyncObjectsList);
 }
 }
 
@@ -2665,7 +2665,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(22497580);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(22498300);
 }
 }
 if (isConditionTrue_0) {
@@ -2688,7 +2688,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(22498644);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(22498748);
 }
 }
 if (isConditionTrue_0) {
@@ -2711,7 +2711,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(21658028);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(21658580);
 }
 }
 if (isConditionTrue_0) {
@@ -2742,7 +2742,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(21659724);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(21661004);
 }
 }
 if (isConditionTrue_0) {
@@ -2765,7 +2765,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(21657612);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(21659188);
 }
 }
 if (isConditionTrue_0) {
@@ -2788,7 +2788,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(22506308);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(22507044);
 }
 }
 if (isConditionTrue_0) {
@@ -2811,7 +2811,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(22507188);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(22508044);
 }
 }
 if (isConditionTrue_0) {
@@ -2842,7 +2842,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(22508788);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(22509484);
 }
 }
 if (isConditionTrue_0) {
@@ -2865,7 +2865,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(22509668);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(22510404);
 }
 }
 if (isConditionTrue_0) {
@@ -2888,7 +2888,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(22510804);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(22506492);
 }
 }
 if (isConditionTrue_0) {
@@ -2902,7 +2902,7 @@ gdjs.copyArray(runtimeScene.getObjects("NewText2"), gdjs.Is_32someone_63_46_46_4
 }
 
 
-};gdjs.Is_32someone_63_46_46_46Code.userFunc0x80be50 = function GDJSInlineCode(runtimeScene, objects) {
+};gdjs.Is_32someone_63_46_46_46Code.userFunc0x14e2370 = function GDJSInlineCode(runtimeScene, objects) {
 "use strict";
 // GDevelop sahne değişkenlerine erişim sağla
 const variables = runtimeScene.getVariables();
@@ -2936,12 +2936,12 @@ gdjs.Is_32someone_63_46_46_46Code.eventsList13 = function(runtimeScene) {
 gdjs.copyArray(runtimeScene.getObjects("NewTextInput2"), gdjs.Is_32someone_63_46_46_46Code.GDNewTextInput2Objects1);
 
 const objects = gdjs.Is_32someone_63_46_46_46Code.GDNewTextInput2Objects1;
-gdjs.Is_32someone_63_46_46_46Code.userFunc0x80be50(runtimeScene, objects);
+gdjs.Is_32someone_63_46_46_46Code.userFunc0x14e2370(runtimeScene, objects);
 
 }
 
 
-};gdjs.Is_32someone_63_46_46_46Code.asyncCallback22523460 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Is_32someone_63_46_46_46Code.asyncCallback22524188 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Is_32someone_63_46_46_46Code.localVariables);
 gdjs.copyArray(runtimeScene.getObjects("Seçenek1"), gdjs.Is_32someone_63_46_46_46Code.GDSe_95231enek1Objects2);
 gdjs.copyArray(runtimeScene.getObjects("Seçenek2"), gdjs.Is_32someone_63_46_46_46Code.GDSe_95231enek2Objects2);
@@ -2987,7 +2987,7 @@ gdjs.copyArray(runtimeScene.getObjects("Seçenek8"), gdjs.Is_32someone_63_46_46_
 }
 gdjs.Is_32someone_63_46_46_46Code.localVariables.length = 0;
 }
-gdjs.Is_32someone_63_46_46_46Code.idToCallbackMap.set(22523460, gdjs.Is_32someone_63_46_46_46Code.asyncCallback22523460);
+gdjs.Is_32someone_63_46_46_46Code.idToCallbackMap.set(22524188, gdjs.Is_32someone_63_46_46_46Code.asyncCallback22524188);
 gdjs.Is_32someone_63_46_46_46Code.eventsList14 = function(runtimeScene) {
 
 {
@@ -2997,14 +2997,14 @@ gdjs.Is_32someone_63_46_46_46Code.eventsList14 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Is_32someone_63_46_46_46Code.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.Is_32someone_63_46_46_46Code.asyncCallback22523460(runtimeScene, asyncObjectsList)), 22523460, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.Is_32someone_63_46_46_46Code.asyncCallback22524188(runtimeScene, asyncObjectsList)), 22524188, asyncObjectsList);
 }
 }
 
 }
 
 
-};gdjs.Is_32someone_63_46_46_46Code.asyncCallback22527804 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Is_32someone_63_46_46_46Code.asyncCallback22528532 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Is_32someone_63_46_46_46Code.localVariables);
 gdjs.copyArray(runtimeScene.getObjects("Seçenek1"), gdjs.Is_32someone_63_46_46_46Code.GDSe_95231enek1Objects2);
 gdjs.copyArray(runtimeScene.getObjects("Seçenek2"), gdjs.Is_32someone_63_46_46_46Code.GDSe_95231enek2Objects2);
@@ -3050,7 +3050,7 @@ gdjs.copyArray(runtimeScene.getObjects("Seçenek8"), gdjs.Is_32someone_63_46_46_
 }
 gdjs.Is_32someone_63_46_46_46Code.localVariables.length = 0;
 }
-gdjs.Is_32someone_63_46_46_46Code.idToCallbackMap.set(22527804, gdjs.Is_32someone_63_46_46_46Code.asyncCallback22527804);
+gdjs.Is_32someone_63_46_46_46Code.idToCallbackMap.set(22528532, gdjs.Is_32someone_63_46_46_46Code.asyncCallback22528532);
 gdjs.Is_32someone_63_46_46_46Code.eventsList15 = function(runtimeScene) {
 
 {
@@ -3060,20 +3060,20 @@ gdjs.Is_32someone_63_46_46_46Code.eventsList15 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Is_32someone_63_46_46_46Code.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.Is_32someone_63_46_46_46Code.asyncCallback22527804(runtimeScene, asyncObjectsList)), 22527804, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.Is_32someone_63_46_46_46Code.asyncCallback22528532(runtimeScene, asyncObjectsList)), 22528532, asyncObjectsList);
 }
 }
 
 }
 
 
-};gdjs.Is_32someone_63_46_46_46Code.asyncCallback22537836 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Is_32someone_63_46_46_46Code.asyncCallback22538564 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Is_32someone_63_46_46_46Code.localVariables);
 {runtimeScene.getScene().getVariables().getFromIndex(30).setBoolean(true);
 }
 gdjs.Is_32someone_63_46_46_46Code.localVariables.length = 0;
 }
-gdjs.Is_32someone_63_46_46_46Code.idToCallbackMap.set(22537836, gdjs.Is_32someone_63_46_46_46Code.asyncCallback22537836);
+gdjs.Is_32someone_63_46_46_46Code.idToCallbackMap.set(22538564, gdjs.Is_32someone_63_46_46_46Code.asyncCallback22538564);
 gdjs.Is_32someone_63_46_46_46Code.eventsList16 = function(runtimeScene) {
 
 {
@@ -3083,20 +3083,20 @@ gdjs.Is_32someone_63_46_46_46Code.eventsList16 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Is_32someone_63_46_46_46Code.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.Is_32someone_63_46_46_46Code.asyncCallback22537836(runtimeScene, asyncObjectsList)), 22537836, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.Is_32someone_63_46_46_46Code.asyncCallback22538564(runtimeScene, asyncObjectsList)), 22538564, asyncObjectsList);
 }
 }
 
 }
 
 
-};gdjs.Is_32someone_63_46_46_46Code.asyncCallback22540212 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Is_32someone_63_46_46_46Code.asyncCallback22540940 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Is_32someone_63_46_46_46Code.localVariables);
 {runtimeScene.getScene().getVariables().getFromIndex(30).setBoolean(true);
 }
 gdjs.Is_32someone_63_46_46_46Code.localVariables.length = 0;
 }
-gdjs.Is_32someone_63_46_46_46Code.idToCallbackMap.set(22540212, gdjs.Is_32someone_63_46_46_46Code.asyncCallback22540212);
+gdjs.Is_32someone_63_46_46_46Code.idToCallbackMap.set(22540940, gdjs.Is_32someone_63_46_46_46Code.asyncCallback22540940);
 gdjs.Is_32someone_63_46_46_46Code.eventsList17 = function(runtimeScene) {
 
 {
@@ -3106,20 +3106,20 @@ gdjs.Is_32someone_63_46_46_46Code.eventsList17 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Is_32someone_63_46_46_46Code.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.Is_32someone_63_46_46_46Code.asyncCallback22540212(runtimeScene, asyncObjectsList)), 22540212, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.Is_32someone_63_46_46_46Code.asyncCallback22540940(runtimeScene, asyncObjectsList)), 22540940, asyncObjectsList);
 }
 }
 
 }
 
 
-};gdjs.Is_32someone_63_46_46_46Code.asyncCallback22543292 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Is_32someone_63_46_46_46Code.asyncCallback22544020 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Is_32someone_63_46_46_46Code.localVariables);
 {runtimeScene.getScene().getVariables().getFromIndex(30).setBoolean(true);
 }
 gdjs.Is_32someone_63_46_46_46Code.localVariables.length = 0;
 }
-gdjs.Is_32someone_63_46_46_46Code.idToCallbackMap.set(22543292, gdjs.Is_32someone_63_46_46_46Code.asyncCallback22543292);
+gdjs.Is_32someone_63_46_46_46Code.idToCallbackMap.set(22544020, gdjs.Is_32someone_63_46_46_46Code.asyncCallback22544020);
 gdjs.Is_32someone_63_46_46_46Code.eventsList18 = function(runtimeScene) {
 
 {
@@ -3129,20 +3129,20 @@ gdjs.Is_32someone_63_46_46_46Code.eventsList18 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Is_32someone_63_46_46_46Code.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.Is_32someone_63_46_46_46Code.asyncCallback22543292(runtimeScene, asyncObjectsList)), 22543292, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.Is_32someone_63_46_46_46Code.asyncCallback22544020(runtimeScene, asyncObjectsList)), 22544020, asyncObjectsList);
 }
 }
 
 }
 
 
-};gdjs.Is_32someone_63_46_46_46Code.asyncCallback22545004 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Is_32someone_63_46_46_46Code.asyncCallback22545732 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Is_32someone_63_46_46_46Code.localVariables);
 {runtimeScene.getScene().getVariables().getFromIndex(30).setBoolean(true);
 }
 gdjs.Is_32someone_63_46_46_46Code.localVariables.length = 0;
 }
-gdjs.Is_32someone_63_46_46_46Code.idToCallbackMap.set(22545004, gdjs.Is_32someone_63_46_46_46Code.asyncCallback22545004);
+gdjs.Is_32someone_63_46_46_46Code.idToCallbackMap.set(22545732, gdjs.Is_32someone_63_46_46_46Code.asyncCallback22545732);
 gdjs.Is_32someone_63_46_46_46Code.eventsList19 = function(runtimeScene) {
 
 {
@@ -3152,20 +3152,20 @@ gdjs.Is_32someone_63_46_46_46Code.eventsList19 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Is_32someone_63_46_46_46Code.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.Is_32someone_63_46_46_46Code.asyncCallback22545004(runtimeScene, asyncObjectsList)), 22545004, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.Is_32someone_63_46_46_46Code.asyncCallback22545732(runtimeScene, asyncObjectsList)), 22545732, asyncObjectsList);
 }
 }
 
 }
 
 
-};gdjs.Is_32someone_63_46_46_46Code.asyncCallback22548084 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Is_32someone_63_46_46_46Code.asyncCallback22548812 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Is_32someone_63_46_46_46Code.localVariables);
 {runtimeScene.getScene().getVariables().getFromIndex(30).setBoolean(true);
 }
 gdjs.Is_32someone_63_46_46_46Code.localVariables.length = 0;
 }
-gdjs.Is_32someone_63_46_46_46Code.idToCallbackMap.set(22548084, gdjs.Is_32someone_63_46_46_46Code.asyncCallback22548084);
+gdjs.Is_32someone_63_46_46_46Code.idToCallbackMap.set(22548812, gdjs.Is_32someone_63_46_46_46Code.asyncCallback22548812);
 gdjs.Is_32someone_63_46_46_46Code.eventsList20 = function(runtimeScene) {
 
 {
@@ -3175,20 +3175,20 @@ gdjs.Is_32someone_63_46_46_46Code.eventsList20 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Is_32someone_63_46_46_46Code.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.Is_32someone_63_46_46_46Code.asyncCallback22548084(runtimeScene, asyncObjectsList)), 22548084, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.Is_32someone_63_46_46_46Code.asyncCallback22548812(runtimeScene, asyncObjectsList)), 22548812, asyncObjectsList);
 }
 }
 
 }
 
 
-};gdjs.Is_32someone_63_46_46_46Code.asyncCallback22549796 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Is_32someone_63_46_46_46Code.asyncCallback22550524 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Is_32someone_63_46_46_46Code.localVariables);
 {runtimeScene.getScene().getVariables().getFromIndex(30).setBoolean(true);
 }
 gdjs.Is_32someone_63_46_46_46Code.localVariables.length = 0;
 }
-gdjs.Is_32someone_63_46_46_46Code.idToCallbackMap.set(22549796, gdjs.Is_32someone_63_46_46_46Code.asyncCallback22549796);
+gdjs.Is_32someone_63_46_46_46Code.idToCallbackMap.set(22550524, gdjs.Is_32someone_63_46_46_46Code.asyncCallback22550524);
 gdjs.Is_32someone_63_46_46_46Code.eventsList21 = function(runtimeScene) {
 
 {
@@ -3198,20 +3198,20 @@ gdjs.Is_32someone_63_46_46_46Code.eventsList21 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Is_32someone_63_46_46_46Code.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.Is_32someone_63_46_46_46Code.asyncCallback22549796(runtimeScene, asyncObjectsList)), 22549796, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.Is_32someone_63_46_46_46Code.asyncCallback22550524(runtimeScene, asyncObjectsList)), 22550524, asyncObjectsList);
 }
 }
 
 }
 
 
-};gdjs.Is_32someone_63_46_46_46Code.asyncCallback22552876 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Is_32someone_63_46_46_46Code.asyncCallback22553604 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Is_32someone_63_46_46_46Code.localVariables);
 {runtimeScene.getScene().getVariables().getFromIndex(30).setBoolean(true);
 }
 gdjs.Is_32someone_63_46_46_46Code.localVariables.length = 0;
 }
-gdjs.Is_32someone_63_46_46_46Code.idToCallbackMap.set(22552876, gdjs.Is_32someone_63_46_46_46Code.asyncCallback22552876);
+gdjs.Is_32someone_63_46_46_46Code.idToCallbackMap.set(22553604, gdjs.Is_32someone_63_46_46_46Code.asyncCallback22553604);
 gdjs.Is_32someone_63_46_46_46Code.eventsList22 = function(runtimeScene) {
 
 {
@@ -3221,14 +3221,14 @@ gdjs.Is_32someone_63_46_46_46Code.eventsList22 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Is_32someone_63_46_46_46Code.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.Is_32someone_63_46_46_46Code.asyncCallback22552876(runtimeScene, asyncObjectsList)), 22552876, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.Is_32someone_63_46_46_46Code.asyncCallback22553604(runtimeScene, asyncObjectsList)), 22553604, asyncObjectsList);
 }
 }
 
 }
 
 
-};gdjs.Is_32someone_63_46_46_46Code.asyncCallback22558028 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Is_32someone_63_46_46_46Code.asyncCallback22558756 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Is_32someone_63_46_46_46Code.localVariables);
 gdjs.copyArray(asyncObjectsList.getObjects("ChoosedWheelPart"), gdjs.Is_32someone_63_46_46_46Code.GDChoosedWheelPartObjects7);
 
@@ -3284,7 +3284,7 @@ gdjs.copyArray(runtimeScene.getObjects("Wheel"), gdjs.Is_32someone_63_46_46_46Co
 }
 gdjs.Is_32someone_63_46_46_46Code.localVariables.length = 0;
 }
-gdjs.Is_32someone_63_46_46_46Code.idToCallbackMap.set(22558028, gdjs.Is_32someone_63_46_46_46Code.asyncCallback22558028);
+gdjs.Is_32someone_63_46_46_46Code.idToCallbackMap.set(22558756, gdjs.Is_32someone_63_46_46_46Code.asyncCallback22558756);
 gdjs.Is_32someone_63_46_46_46Code.eventsList23 = function(runtimeScene, asyncObjectsList) {
 
 {
@@ -3297,14 +3297,14 @@ const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Is_32someone_63_46_46_46Code.localVariables);
 /* Don't save ChoosedWheelPart as it will be provided by the parent asyncObjectsList. */
 /* Don't save Seçenek8 as it will be provided by the parent asyncObjectsList. */
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(8), (runtimeScene) => (gdjs.Is_32someone_63_46_46_46Code.asyncCallback22558028(runtimeScene, asyncObjectsList)), 22558028, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(8), (runtimeScene) => (gdjs.Is_32someone_63_46_46_46Code.asyncCallback22558756(runtimeScene, asyncObjectsList)), 22558756, asyncObjectsList);
 }
 }
 
 }
 
 
-};gdjs.Is_32someone_63_46_46_46Code.asyncCallback22557188 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Is_32someone_63_46_46_46Code.asyncCallback22557916 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Is_32someone_63_46_46_46Code.localVariables);
 gdjs.copyArray(asyncObjectsList.getObjects("Hand"), gdjs.Is_32someone_63_46_46_46Code.GDHandObjects6);
 
@@ -3321,7 +3321,7 @@ gdjs.copyArray(asyncObjectsList.getObjects("Hand"), gdjs.Is_32someone_63_46_46_4
 gdjs.Is_32someone_63_46_46_46Code.eventsList23(runtimeScene, asyncObjectsList);} //End of subevents
 gdjs.Is_32someone_63_46_46_46Code.localVariables.length = 0;
 }
-gdjs.Is_32someone_63_46_46_46Code.idToCallbackMap.set(22557188, gdjs.Is_32someone_63_46_46_46Code.asyncCallback22557188);
+gdjs.Is_32someone_63_46_46_46Code.idToCallbackMap.set(22557916, gdjs.Is_32someone_63_46_46_46Code.asyncCallback22557916);
 gdjs.Is_32someone_63_46_46_46Code.eventsList24 = function(runtimeScene, asyncObjectsList) {
 
 {
@@ -3335,14 +3335,14 @@ asyncObjectsList.backupLocalVariablesContainers(gdjs.Is_32someone_63_46_46_46Cod
 for (const obj of gdjs.Is_32someone_63_46_46_46Code.GDChoosedWheelPartObjects5) asyncObjectsList.addObject("ChoosedWheelPart", obj);
 /* Don't save Hand as it will be provided by the parent asyncObjectsList. */
 /* Don't save Seçenek8 as it will be provided by the parent asyncObjectsList. */
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(10), (runtimeScene) => (gdjs.Is_32someone_63_46_46_46Code.asyncCallback22557188(runtimeScene, asyncObjectsList)), 22557188, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(10), (runtimeScene) => (gdjs.Is_32someone_63_46_46_46Code.asyncCallback22557916(runtimeScene, asyncObjectsList)), 22557916, asyncObjectsList);
 }
 }
 
 }
 
 
-};gdjs.Is_32someone_63_46_46_46Code.asyncCallback22556372 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Is_32someone_63_46_46_46Code.asyncCallback22557100 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Is_32someone_63_46_46_46Code.localVariables);
 gdjs.copyArray(runtimeScene.getObjects("ChoosedWheelPart"), gdjs.Is_32someone_63_46_46_46Code.GDChoosedWheelPartObjects5);
 gdjs.copyArray(asyncObjectsList.getObjects("NewText2"), gdjs.Is_32someone_63_46_46_46Code.GDNewText2Objects5);
@@ -3362,7 +3362,7 @@ gdjs.copyArray(asyncObjectsList.getObjects("NewText2"), gdjs.Is_32someone_63_46_
 gdjs.Is_32someone_63_46_46_46Code.eventsList24(runtimeScene, asyncObjectsList);} //End of subevents
 gdjs.Is_32someone_63_46_46_46Code.localVariables.length = 0;
 }
-gdjs.Is_32someone_63_46_46_46Code.idToCallbackMap.set(22556372, gdjs.Is_32someone_63_46_46_46Code.asyncCallback22556372);
+gdjs.Is_32someone_63_46_46_46Code.idToCallbackMap.set(22557100, gdjs.Is_32someone_63_46_46_46Code.asyncCallback22557100);
 gdjs.Is_32someone_63_46_46_46Code.eventsList25 = function(runtimeScene, asyncObjectsList) {
 
 {
@@ -3376,14 +3376,14 @@ asyncObjectsList.backupLocalVariablesContainers(gdjs.Is_32someone_63_46_46_46Cod
 for (const obj of gdjs.Is_32someone_63_46_46_46Code.GDHandObjects4) asyncObjectsList.addObject("Hand", obj);
 for (const obj of gdjs.Is_32someone_63_46_46_46Code.GDNewText2Objects4) asyncObjectsList.addObject("NewText2", obj);
 /* Don't save Seçenek8 as it will be provided by the parent asyncObjectsList. */
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.Is_32someone_63_46_46_46Code.asyncCallback22556372(runtimeScene, asyncObjectsList)), 22556372, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.Is_32someone_63_46_46_46Code.asyncCallback22557100(runtimeScene, asyncObjectsList)), 22557100, asyncObjectsList);
 }
 }
 
 }
 
 
-};gdjs.Is_32someone_63_46_46_46Code.asyncCallback22555620 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Is_32someone_63_46_46_46Code.asyncCallback22556348 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Is_32someone_63_46_46_46Code.localVariables);
 gdjs.copyArray(runtimeScene.getObjects("Hand"), gdjs.Is_32someone_63_46_46_46Code.GDHandObjects4);
 gdjs.copyArray(asyncObjectsList.getObjects("NewText2"), gdjs.Is_32someone_63_46_46_46Code.GDNewText2Objects4);
@@ -3401,7 +3401,7 @@ gdjs.copyArray(asyncObjectsList.getObjects("NewText2"), gdjs.Is_32someone_63_46_
 gdjs.Is_32someone_63_46_46_46Code.eventsList25(runtimeScene, asyncObjectsList);} //End of subevents
 gdjs.Is_32someone_63_46_46_46Code.localVariables.length = 0;
 }
-gdjs.Is_32someone_63_46_46_46Code.idToCallbackMap.set(22555620, gdjs.Is_32someone_63_46_46_46Code.asyncCallback22555620);
+gdjs.Is_32someone_63_46_46_46Code.idToCallbackMap.set(22556348, gdjs.Is_32someone_63_46_46_46Code.asyncCallback22556348);
 gdjs.Is_32someone_63_46_46_46Code.eventsList26 = function(runtimeScene, asyncObjectsList) {
 
 {
@@ -3414,14 +3414,14 @@ const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Is_32someone_63_46_46_46Code.localVariables);
 for (const obj of gdjs.Is_32someone_63_46_46_46Code.GDNewText2Objects3) asyncObjectsList.addObject("NewText2", obj);
 /* Don't save Seçenek8 as it will be provided by the parent asyncObjectsList. */
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.Is_32someone_63_46_46_46Code.asyncCallback22555620(runtimeScene, asyncObjectsList)), 22555620, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.Is_32someone_63_46_46_46Code.asyncCallback22556348(runtimeScene, asyncObjectsList)), 22556348, asyncObjectsList);
 }
 }
 
 }
 
 
-};gdjs.Is_32someone_63_46_46_46Code.asyncCallback22555388 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Is_32someone_63_46_46_46Code.asyncCallback22556116 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Is_32someone_63_46_46_46Code.localVariables);
 gdjs.copyArray(asyncObjectsList.getObjects("NewText2"), gdjs.Is_32someone_63_46_46_46Code.GDNewText2Objects3);
 
@@ -3434,7 +3434,7 @@ gdjs.copyArray(asyncObjectsList.getObjects("NewText2"), gdjs.Is_32someone_63_46_
 gdjs.Is_32someone_63_46_46_46Code.eventsList26(runtimeScene, asyncObjectsList);} //End of subevents
 gdjs.Is_32someone_63_46_46_46Code.localVariables.length = 0;
 }
-gdjs.Is_32someone_63_46_46_46Code.idToCallbackMap.set(22555388, gdjs.Is_32someone_63_46_46_46Code.asyncCallback22555388);
+gdjs.Is_32someone_63_46_46_46Code.idToCallbackMap.set(22556116, gdjs.Is_32someone_63_46_46_46Code.asyncCallback22556116);
 gdjs.Is_32someone_63_46_46_46Code.eventsList27 = function(runtimeScene, asyncObjectsList) {
 
 {
@@ -3447,14 +3447,14 @@ const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Is_32someone_63_46_46_46Code.localVariables);
 for (const obj of gdjs.Is_32someone_63_46_46_46Code.GDNewText2Objects2) asyncObjectsList.addObject("NewText2", obj);
 /* Don't save Seçenek8 as it will be provided by the parent asyncObjectsList. */
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.Is_32someone_63_46_46_46Code.asyncCallback22555388(runtimeScene, asyncObjectsList)), 22555388, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.Is_32someone_63_46_46_46Code.asyncCallback22556116(runtimeScene, asyncObjectsList)), 22556116, asyncObjectsList);
 }
 }
 
 }
 
 
-};gdjs.Is_32someone_63_46_46_46Code.asyncCallback22554516 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Is_32someone_63_46_46_46Code.asyncCallback22555244 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Is_32someone_63_46_46_46Code.localVariables);
 gdjs.copyArray(asyncObjectsList.getObjects("NewText2"), gdjs.Is_32someone_63_46_46_46Code.GDNewText2Objects2);
 
@@ -3467,7 +3467,7 @@ gdjs.copyArray(asyncObjectsList.getObjects("NewText2"), gdjs.Is_32someone_63_46_
 gdjs.Is_32someone_63_46_46_46Code.eventsList27(runtimeScene, asyncObjectsList);} //End of subevents
 gdjs.Is_32someone_63_46_46_46Code.localVariables.length = 0;
 }
-gdjs.Is_32someone_63_46_46_46Code.idToCallbackMap.set(22554516, gdjs.Is_32someone_63_46_46_46Code.asyncCallback22554516);
+gdjs.Is_32someone_63_46_46_46Code.idToCallbackMap.set(22555244, gdjs.Is_32someone_63_46_46_46Code.asyncCallback22555244);
 gdjs.Is_32someone_63_46_46_46Code.eventsList28 = function(runtimeScene) {
 
 {
@@ -3479,14 +3479,14 @@ const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Is_32someone_63_46_46_46Code.localVariables);
 for (const obj of gdjs.Is_32someone_63_46_46_46Code.GDNewText2Objects1) asyncObjectsList.addObject("NewText2", obj);
 for (const obj of gdjs.Is_32someone_63_46_46_46Code.GDSe_95231enek8Objects1) asyncObjectsList.addObject("Seçenek8", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(3), (runtimeScene) => (gdjs.Is_32someone_63_46_46_46Code.asyncCallback22554516(runtimeScene, asyncObjectsList)), 22554516, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(3), (runtimeScene) => (gdjs.Is_32someone_63_46_46_46Code.asyncCallback22555244(runtimeScene, asyncObjectsList)), 22555244, asyncObjectsList);
 }
 }
 
 }
 
 
-};gdjs.Is_32someone_63_46_46_46Code.asyncCallback22567700 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Is_32someone_63_46_46_46Code.asyncCallback22568428 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Is_32someone_63_46_46_46Code.localVariables);
 {runtimeScene.getScene().getVariables().getFromIndex(45).setBoolean(true);
 }
@@ -3494,7 +3494,7 @@ asyncObjectsList.restoreLocalVariablesContainers(gdjs.Is_32someone_63_46_46_46Co
 }
 gdjs.Is_32someone_63_46_46_46Code.localVariables.length = 0;
 }
-gdjs.Is_32someone_63_46_46_46Code.idToCallbackMap.set(22567700, gdjs.Is_32someone_63_46_46_46Code.asyncCallback22567700);
+gdjs.Is_32someone_63_46_46_46Code.idToCallbackMap.set(22568428, gdjs.Is_32someone_63_46_46_46Code.asyncCallback22568428);
 gdjs.Is_32someone_63_46_46_46Code.eventsList29 = function(runtimeScene) {
 
 {
@@ -3504,14 +3504,14 @@ gdjs.Is_32someone_63_46_46_46Code.eventsList29 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Is_32someone_63_46_46_46Code.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.Is_32someone_63_46_46_46Code.asyncCallback22567700(runtimeScene, asyncObjectsList)), 22567700, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.Is_32someone_63_46_46_46Code.asyncCallback22568428(runtimeScene, asyncObjectsList)), 22568428, asyncObjectsList);
 }
 }
 
 }
 
 
-};gdjs.Is_32someone_63_46_46_46Code.asyncCallback22569884 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Is_32someone_63_46_46_46Code.asyncCallback22570612 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Is_32someone_63_46_46_46Code.localVariables);
 {runtimeScene.getScene().getVariables().getFromIndex(45).setBoolean(true);
 }
@@ -3519,7 +3519,7 @@ asyncObjectsList.restoreLocalVariablesContainers(gdjs.Is_32someone_63_46_46_46Co
 }
 gdjs.Is_32someone_63_46_46_46Code.localVariables.length = 0;
 }
-gdjs.Is_32someone_63_46_46_46Code.idToCallbackMap.set(22569884, gdjs.Is_32someone_63_46_46_46Code.asyncCallback22569884);
+gdjs.Is_32someone_63_46_46_46Code.idToCallbackMap.set(22570612, gdjs.Is_32someone_63_46_46_46Code.asyncCallback22570612);
 gdjs.Is_32someone_63_46_46_46Code.eventsList30 = function(runtimeScene) {
 
 {
@@ -3529,14 +3529,14 @@ gdjs.Is_32someone_63_46_46_46Code.eventsList30 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Is_32someone_63_46_46_46Code.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.Is_32someone_63_46_46_46Code.asyncCallback22569884(runtimeScene, asyncObjectsList)), 22569884, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.Is_32someone_63_46_46_46Code.asyncCallback22570612(runtimeScene, asyncObjectsList)), 22570612, asyncObjectsList);
 }
 }
 
 }
 
 
-};gdjs.Is_32someone_63_46_46_46Code.asyncCallback22572068 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Is_32someone_63_46_46_46Code.asyncCallback22572796 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Is_32someone_63_46_46_46Code.localVariables);
 {runtimeScene.getScene().getVariables().getFromIndex(45).setBoolean(true);
 }
@@ -3544,7 +3544,7 @@ asyncObjectsList.restoreLocalVariablesContainers(gdjs.Is_32someone_63_46_46_46Co
 }
 gdjs.Is_32someone_63_46_46_46Code.localVariables.length = 0;
 }
-gdjs.Is_32someone_63_46_46_46Code.idToCallbackMap.set(22572068, gdjs.Is_32someone_63_46_46_46Code.asyncCallback22572068);
+gdjs.Is_32someone_63_46_46_46Code.idToCallbackMap.set(22572796, gdjs.Is_32someone_63_46_46_46Code.asyncCallback22572796);
 gdjs.Is_32someone_63_46_46_46Code.eventsList31 = function(runtimeScene) {
 
 {
@@ -3554,14 +3554,14 @@ gdjs.Is_32someone_63_46_46_46Code.eventsList31 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Is_32someone_63_46_46_46Code.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.Is_32someone_63_46_46_46Code.asyncCallback22572068(runtimeScene, asyncObjectsList)), 22572068, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.Is_32someone_63_46_46_46Code.asyncCallback22572796(runtimeScene, asyncObjectsList)), 22572796, asyncObjectsList);
 }
 }
 
 }
 
 
-};gdjs.Is_32someone_63_46_46_46Code.asyncCallback22574252 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Is_32someone_63_46_46_46Code.asyncCallback22574980 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Is_32someone_63_46_46_46Code.localVariables);
 {runtimeScene.getScene().getVariables().getFromIndex(45).setBoolean(true);
 }
@@ -3569,7 +3569,7 @@ asyncObjectsList.restoreLocalVariablesContainers(gdjs.Is_32someone_63_46_46_46Co
 }
 gdjs.Is_32someone_63_46_46_46Code.localVariables.length = 0;
 }
-gdjs.Is_32someone_63_46_46_46Code.idToCallbackMap.set(22574252, gdjs.Is_32someone_63_46_46_46Code.asyncCallback22574252);
+gdjs.Is_32someone_63_46_46_46Code.idToCallbackMap.set(22574980, gdjs.Is_32someone_63_46_46_46Code.asyncCallback22574980);
 gdjs.Is_32someone_63_46_46_46Code.eventsList32 = function(runtimeScene) {
 
 {
@@ -3579,20 +3579,20 @@ gdjs.Is_32someone_63_46_46_46Code.eventsList32 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Is_32someone_63_46_46_46Code.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.Is_32someone_63_46_46_46Code.asyncCallback22574252(runtimeScene, asyncObjectsList)), 22574252, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.Is_32someone_63_46_46_46Code.asyncCallback22574980(runtimeScene, asyncObjectsList)), 22574980, asyncObjectsList);
 }
 }
 
 }
 
 
-};gdjs.Is_32someone_63_46_46_46Code.asyncCallback22579300 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Is_32someone_63_46_46_46Code.asyncCallback22580028 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Is_32someone_63_46_46_46Code.localVariables);
 {runtimeScene.getScene().getVariables().getFromIndex(45).setBoolean(true);
 }
 gdjs.Is_32someone_63_46_46_46Code.localVariables.length = 0;
 }
-gdjs.Is_32someone_63_46_46_46Code.idToCallbackMap.set(22579300, gdjs.Is_32someone_63_46_46_46Code.asyncCallback22579300);
+gdjs.Is_32someone_63_46_46_46Code.idToCallbackMap.set(22580028, gdjs.Is_32someone_63_46_46_46Code.asyncCallback22580028);
 gdjs.Is_32someone_63_46_46_46Code.eventsList33 = function(runtimeScene) {
 
 {
@@ -3602,20 +3602,20 @@ gdjs.Is_32someone_63_46_46_46Code.eventsList33 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Is_32someone_63_46_46_46Code.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.Is_32someone_63_46_46_46Code.asyncCallback22579300(runtimeScene, asyncObjectsList)), 22579300, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.Is_32someone_63_46_46_46Code.asyncCallback22580028(runtimeScene, asyncObjectsList)), 22580028, asyncObjectsList);
 }
 }
 
 }
 
 
-};gdjs.Is_32someone_63_46_46_46Code.asyncCallback22581492 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Is_32someone_63_46_46_46Code.asyncCallback22582220 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Is_32someone_63_46_46_46Code.localVariables);
 {runtimeScene.getScene().getVariables().getFromIndex(45).setBoolean(true);
 }
 gdjs.Is_32someone_63_46_46_46Code.localVariables.length = 0;
 }
-gdjs.Is_32someone_63_46_46_46Code.idToCallbackMap.set(22581492, gdjs.Is_32someone_63_46_46_46Code.asyncCallback22581492);
+gdjs.Is_32someone_63_46_46_46Code.idToCallbackMap.set(22582220, gdjs.Is_32someone_63_46_46_46Code.asyncCallback22582220);
 gdjs.Is_32someone_63_46_46_46Code.eventsList34 = function(runtimeScene) {
 
 {
@@ -3625,20 +3625,20 @@ gdjs.Is_32someone_63_46_46_46Code.eventsList34 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Is_32someone_63_46_46_46Code.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.Is_32someone_63_46_46_46Code.asyncCallback22581492(runtimeScene, asyncObjectsList)), 22581492, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.Is_32someone_63_46_46_46Code.asyncCallback22582220(runtimeScene, asyncObjectsList)), 22582220, asyncObjectsList);
 }
 }
 
 }
 
 
-};gdjs.Is_32someone_63_46_46_46Code.asyncCallback22583180 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Is_32someone_63_46_46_46Code.asyncCallback22583908 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Is_32someone_63_46_46_46Code.localVariables);
 {runtimeScene.getScene().getVariables().getFromIndex(45).setBoolean(true);
 }
 gdjs.Is_32someone_63_46_46_46Code.localVariables.length = 0;
 }
-gdjs.Is_32someone_63_46_46_46Code.idToCallbackMap.set(22583180, gdjs.Is_32someone_63_46_46_46Code.asyncCallback22583180);
+gdjs.Is_32someone_63_46_46_46Code.idToCallbackMap.set(22583908, gdjs.Is_32someone_63_46_46_46Code.asyncCallback22583908);
 gdjs.Is_32someone_63_46_46_46Code.eventsList35 = function(runtimeScene) {
 
 {
@@ -3648,7 +3648,7 @@ gdjs.Is_32someone_63_46_46_46Code.eventsList35 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Is_32someone_63_46_46_46Code.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.Is_32someone_63_46_46_46Code.asyncCallback22583180(runtimeScene, asyncObjectsList)), 22583180, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.Is_32someone_63_46_46_46Code.asyncCallback22583908(runtimeScene, asyncObjectsList)), 22583908, asyncObjectsList);
 }
 }
 
@@ -3931,13 +3931,13 @@ gdjs.copyArray(runtimeScene.getObjects("NewText2"), gdjs.Is_32someone_63_46_46_4
 }
 
 
-};gdjs.Is_32someone_63_46_46_46Code.asyncCallback22609148 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Is_32someone_63_46_46_46Code.asyncCallback22609876 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Is_32someone_63_46_46_46Code.localVariables);
 {runtimeScene.getScene().getVariables().getFromIndex(45).setBoolean(true);
 }
 gdjs.Is_32someone_63_46_46_46Code.localVariables.length = 0;
 }
-gdjs.Is_32someone_63_46_46_46Code.idToCallbackMap.set(22609148, gdjs.Is_32someone_63_46_46_46Code.asyncCallback22609148);
+gdjs.Is_32someone_63_46_46_46Code.idToCallbackMap.set(22609876, gdjs.Is_32someone_63_46_46_46Code.asyncCallback22609876);
 gdjs.Is_32someone_63_46_46_46Code.eventsList39 = function(runtimeScene) {
 
 {
@@ -3947,20 +3947,20 @@ gdjs.Is_32someone_63_46_46_46Code.eventsList39 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Is_32someone_63_46_46_46Code.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.Is_32someone_63_46_46_46Code.asyncCallback22609148(runtimeScene, asyncObjectsList)), 22609148, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.Is_32someone_63_46_46_46Code.asyncCallback22609876(runtimeScene, asyncObjectsList)), 22609876, asyncObjectsList);
 }
 }
 
 }
 
 
-};gdjs.Is_32someone_63_46_46_46Code.asyncCallback22612132 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Is_32someone_63_46_46_46Code.asyncCallback22612860 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Is_32someone_63_46_46_46Code.localVariables);
 {runtimeScene.getScene().getVariables().getFromIndex(45).setBoolean(true);
 }
 gdjs.Is_32someone_63_46_46_46Code.localVariables.length = 0;
 }
-gdjs.Is_32someone_63_46_46_46Code.idToCallbackMap.set(22612132, gdjs.Is_32someone_63_46_46_46Code.asyncCallback22612132);
+gdjs.Is_32someone_63_46_46_46Code.idToCallbackMap.set(22612860, gdjs.Is_32someone_63_46_46_46Code.asyncCallback22612860);
 gdjs.Is_32someone_63_46_46_46Code.eventsList40 = function(runtimeScene) {
 
 {
@@ -3970,20 +3970,20 @@ gdjs.Is_32someone_63_46_46_46Code.eventsList40 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Is_32someone_63_46_46_46Code.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.Is_32someone_63_46_46_46Code.asyncCallback22612132(runtimeScene, asyncObjectsList)), 22612132, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.Is_32someone_63_46_46_46Code.asyncCallback22612860(runtimeScene, asyncObjectsList)), 22612860, asyncObjectsList);
 }
 }
 
 }
 
 
-};gdjs.Is_32someone_63_46_46_46Code.asyncCallback22614236 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Is_32someone_63_46_46_46Code.asyncCallback22614964 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Is_32someone_63_46_46_46Code.localVariables);
 {runtimeScene.getScene().getVariables().getFromIndex(45).setBoolean(true);
 }
 gdjs.Is_32someone_63_46_46_46Code.localVariables.length = 0;
 }
-gdjs.Is_32someone_63_46_46_46Code.idToCallbackMap.set(22614236, gdjs.Is_32someone_63_46_46_46Code.asyncCallback22614236);
+gdjs.Is_32someone_63_46_46_46Code.idToCallbackMap.set(22614964, gdjs.Is_32someone_63_46_46_46Code.asyncCallback22614964);
 gdjs.Is_32someone_63_46_46_46Code.eventsList41 = function(runtimeScene) {
 
 {
@@ -3993,20 +3993,20 @@ gdjs.Is_32someone_63_46_46_46Code.eventsList41 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Is_32someone_63_46_46_46Code.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.Is_32someone_63_46_46_46Code.asyncCallback22614236(runtimeScene, asyncObjectsList)), 22614236, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.Is_32someone_63_46_46_46Code.asyncCallback22614964(runtimeScene, asyncObjectsList)), 22614964, asyncObjectsList);
 }
 }
 
 }
 
 
-};gdjs.Is_32someone_63_46_46_46Code.asyncCallback22615764 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Is_32someone_63_46_46_46Code.asyncCallback22616492 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Is_32someone_63_46_46_46Code.localVariables);
 {runtimeScene.getScene().getVariables().getFromIndex(45).setBoolean(true);
 }
 gdjs.Is_32someone_63_46_46_46Code.localVariables.length = 0;
 }
-gdjs.Is_32someone_63_46_46_46Code.idToCallbackMap.set(22615764, gdjs.Is_32someone_63_46_46_46Code.asyncCallback22615764);
+gdjs.Is_32someone_63_46_46_46Code.idToCallbackMap.set(22616492, gdjs.Is_32someone_63_46_46_46Code.asyncCallback22616492);
 gdjs.Is_32someone_63_46_46_46Code.eventsList42 = function(runtimeScene) {
 
 {
@@ -4016,20 +4016,20 @@ gdjs.Is_32someone_63_46_46_46Code.eventsList42 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Is_32someone_63_46_46_46Code.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.Is_32someone_63_46_46_46Code.asyncCallback22615764(runtimeScene, asyncObjectsList)), 22615764, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.Is_32someone_63_46_46_46Code.asyncCallback22616492(runtimeScene, asyncObjectsList)), 22616492, asyncObjectsList);
 }
 }
 
 }
 
 
-};gdjs.Is_32someone_63_46_46_46Code.asyncCallback22619836 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Is_32someone_63_46_46_46Code.asyncCallback22620564 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Is_32someone_63_46_46_46Code.localVariables);
 {runtimeScene.getScene().getVariables().getFromIndex(45).setBoolean(true);
 }
 gdjs.Is_32someone_63_46_46_46Code.localVariables.length = 0;
 }
-gdjs.Is_32someone_63_46_46_46Code.idToCallbackMap.set(22619836, gdjs.Is_32someone_63_46_46_46Code.asyncCallback22619836);
+gdjs.Is_32someone_63_46_46_46Code.idToCallbackMap.set(22620564, gdjs.Is_32someone_63_46_46_46Code.asyncCallback22620564);
 gdjs.Is_32someone_63_46_46_46Code.eventsList43 = function(runtimeScene) {
 
 {
@@ -4039,20 +4039,20 @@ gdjs.Is_32someone_63_46_46_46Code.eventsList43 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Is_32someone_63_46_46_46Code.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.Is_32someone_63_46_46_46Code.asyncCallback22619836(runtimeScene, asyncObjectsList)), 22619836, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.Is_32someone_63_46_46_46Code.asyncCallback22620564(runtimeScene, asyncObjectsList)), 22620564, asyncObjectsList);
 }
 }
 
 }
 
 
-};gdjs.Is_32someone_63_46_46_46Code.asyncCallback22621668 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Is_32someone_63_46_46_46Code.asyncCallback22622396 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Is_32someone_63_46_46_46Code.localVariables);
 {runtimeScene.getScene().getVariables().getFromIndex(45).setBoolean(true);
 }
 gdjs.Is_32someone_63_46_46_46Code.localVariables.length = 0;
 }
-gdjs.Is_32someone_63_46_46_46Code.idToCallbackMap.set(22621668, gdjs.Is_32someone_63_46_46_46Code.asyncCallback22621668);
+gdjs.Is_32someone_63_46_46_46Code.idToCallbackMap.set(22622396, gdjs.Is_32someone_63_46_46_46Code.asyncCallback22622396);
 gdjs.Is_32someone_63_46_46_46Code.eventsList44 = function(runtimeScene) {
 
 {
@@ -4062,20 +4062,20 @@ gdjs.Is_32someone_63_46_46_46Code.eventsList44 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Is_32someone_63_46_46_46Code.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.Is_32someone_63_46_46_46Code.asyncCallback22621668(runtimeScene, asyncObjectsList)), 22621668, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.Is_32someone_63_46_46_46Code.asyncCallback22622396(runtimeScene, asyncObjectsList)), 22622396, asyncObjectsList);
 }
 }
 
 }
 
 
-};gdjs.Is_32someone_63_46_46_46Code.asyncCallback22624580 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Is_32someone_63_46_46_46Code.asyncCallback22625308 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Is_32someone_63_46_46_46Code.localVariables);
 {runtimeScene.getScene().getVariables().getFromIndex(45).setBoolean(true);
 }
 gdjs.Is_32someone_63_46_46_46Code.localVariables.length = 0;
 }
-gdjs.Is_32someone_63_46_46_46Code.idToCallbackMap.set(22624580, gdjs.Is_32someone_63_46_46_46Code.asyncCallback22624580);
+gdjs.Is_32someone_63_46_46_46Code.idToCallbackMap.set(22625308, gdjs.Is_32someone_63_46_46_46Code.asyncCallback22625308);
 gdjs.Is_32someone_63_46_46_46Code.eventsList45 = function(runtimeScene) {
 
 {
@@ -4085,20 +4085,20 @@ gdjs.Is_32someone_63_46_46_46Code.eventsList45 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Is_32someone_63_46_46_46Code.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.Is_32someone_63_46_46_46Code.asyncCallback22624580(runtimeScene, asyncObjectsList)), 22624580, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.Is_32someone_63_46_46_46Code.asyncCallback22625308(runtimeScene, asyncObjectsList)), 22625308, asyncObjectsList);
 }
 }
 
 }
 
 
-};gdjs.Is_32someone_63_46_46_46Code.asyncCallback22627396 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Is_32someone_63_46_46_46Code.asyncCallback22628124 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Is_32someone_63_46_46_46Code.localVariables);
 {runtimeScene.getScene().getVariables().getFromIndex(45).setBoolean(true);
 }
 gdjs.Is_32someone_63_46_46_46Code.localVariables.length = 0;
 }
-gdjs.Is_32someone_63_46_46_46Code.idToCallbackMap.set(22627396, gdjs.Is_32someone_63_46_46_46Code.asyncCallback22627396);
+gdjs.Is_32someone_63_46_46_46Code.idToCallbackMap.set(22628124, gdjs.Is_32someone_63_46_46_46Code.asyncCallback22628124);
 gdjs.Is_32someone_63_46_46_46Code.eventsList46 = function(runtimeScene) {
 
 {
@@ -4108,14 +4108,14 @@ gdjs.Is_32someone_63_46_46_46Code.eventsList46 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Is_32someone_63_46_46_46Code.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.Is_32someone_63_46_46_46Code.asyncCallback22627396(runtimeScene, asyncObjectsList)), 22627396, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.Is_32someone_63_46_46_46Code.asyncCallback22628124(runtimeScene, asyncObjectsList)), 22628124, asyncObjectsList);
 }
 }
 
 }
 
 
-};gdjs.Is_32someone_63_46_46_46Code.userFunc0xbd2f58 = function GDJSInlineCode(runtimeScene, objects) {
+};gdjs.Is_32someone_63_46_46_46Code.userFunc0x13a6360 = function GDJSInlineCode(runtimeScene, objects) {
 "use strict";
 // İlk olarak, cevap kutusundan metni alıyorum ve evet başka bir şey yok.
 let girdimeti = runtimeScene.getObjects("NewText2")[0].getString();
@@ -4142,7 +4142,7 @@ gdjs.Is_32someone_63_46_46_46Code.eventsList47 = function(runtimeScene) {
 gdjs.copyArray(runtimeScene.getObjects("NewText2"), gdjs.Is_32someone_63_46_46_46Code.GDNewText2Objects2);
 
 const objects = gdjs.Is_32someone_63_46_46_46Code.GDNewText2Objects2;
-gdjs.Is_32someone_63_46_46_46Code.userFunc0xbd2f58(runtimeScene, objects);
+gdjs.Is_32someone_63_46_46_46Code.userFunc0x13a6360(runtimeScene, objects);
 
 }
 
@@ -4175,7 +4175,7 @@ gdjs.copyArray(runtimeScene.getObjects("NewText2"), gdjs.Is_32someone_63_46_46_4
 }
 
 
-};gdjs.Is_32someone_63_46_46_46Code.userFunc0xdd1c38 = function GDJSInlineCode(runtimeScene, objects) {
+};gdjs.Is_32someone_63_46_46_46Code.userFunc0xc43610 = function GDJSInlineCode(runtimeScene, objects) {
 "use strict";
 // İlk olarak, cevap kutusundan metni alıyorum ve evet başka bir şey yok.
 let girdimeti = runtimeScene.getObjects("NewText2")[0].getString();
@@ -4202,7 +4202,7 @@ gdjs.Is_32someone_63_46_46_46Code.eventsList48 = function(runtimeScene) {
 gdjs.copyArray(runtimeScene.getObjects("NewText2"), gdjs.Is_32someone_63_46_46_46Code.GDNewText2Objects2);
 
 const objects = gdjs.Is_32someone_63_46_46_46Code.GDNewText2Objects2;
-gdjs.Is_32someone_63_46_46_46Code.userFunc0xdd1c38(runtimeScene, objects);
+gdjs.Is_32someone_63_46_46_46Code.userFunc0xc43610(runtimeScene, objects);
 
 }
 
@@ -4235,7 +4235,7 @@ gdjs.copyArray(runtimeScene.getObjects("NewText2"), gdjs.Is_32someone_63_46_46_4
 }
 
 
-};gdjs.Is_32someone_63_46_46_46Code.userFunc0x12a3b80 = function GDJSInlineCode(runtimeScene, objects) {
+};gdjs.Is_32someone_63_46_46_46Code.userFunc0x1ab7c10 = function GDJSInlineCode(runtimeScene, objects) {
 "use strict";
 // İlk olarak, cevap kutusundan metni alıyorum ve evet başka bir şey yok.
 let girdimeti = runtimeScene.getObjects("NewText2")[0].getString();
@@ -4262,7 +4262,7 @@ gdjs.Is_32someone_63_46_46_46Code.eventsList49 = function(runtimeScene) {
 gdjs.copyArray(runtimeScene.getObjects("NewText2"), gdjs.Is_32someone_63_46_46_46Code.GDNewText2Objects2);
 
 const objects = gdjs.Is_32someone_63_46_46_46Code.GDNewText2Objects2;
-gdjs.Is_32someone_63_46_46_46Code.userFunc0x12a3b80(runtimeScene, objects);
+gdjs.Is_32someone_63_46_46_46Code.userFunc0x1ab7c10(runtimeScene, objects);
 
 }
 
@@ -4295,7 +4295,7 @@ gdjs.copyArray(runtimeScene.getObjects("NewText2"), gdjs.Is_32someone_63_46_46_4
 }
 
 
-};gdjs.Is_32someone_63_46_46_46Code.userFunc0x1317068 = function GDJSInlineCode(runtimeScene, objects) {
+};gdjs.Is_32someone_63_46_46_46Code.userFunc0xf65040 = function GDJSInlineCode(runtimeScene, objects) {
 "use strict";
 // İlk olarak, cevap kutusundan metni alıyorum ve evet başka bir şey yok.
 let girdimeti = runtimeScene.getObjects("NewText2")[0].getString();
@@ -4322,7 +4322,7 @@ gdjs.Is_32someone_63_46_46_46Code.eventsList50 = function(runtimeScene) {
 gdjs.copyArray(runtimeScene.getObjects("NewText2"), gdjs.Is_32someone_63_46_46_46Code.GDNewText2Objects2);
 
 const objects = gdjs.Is_32someone_63_46_46_46Code.GDNewText2Objects2;
-gdjs.Is_32someone_63_46_46_46Code.userFunc0x1317068(runtimeScene, objects);
+gdjs.Is_32someone_63_46_46_46Code.userFunc0xf65040(runtimeScene, objects);
 
 }
 
@@ -4355,7 +4355,7 @@ gdjs.copyArray(runtimeScene.getObjects("NewText2"), gdjs.Is_32someone_63_46_46_4
 }
 
 
-};gdjs.Is_32someone_63_46_46_46Code.userFunc0x1ac0718 = function GDJSInlineCode(runtimeScene, objects) {
+};gdjs.Is_32someone_63_46_46_46Code.userFunc0x1102870 = function GDJSInlineCode(runtimeScene, objects) {
 "use strict";
 // İlk olarak, cevap kutusundan metni alıyorum ve evet başka bir şey yok.
 let girdimeti = runtimeScene.getObjects("NewText2")[0].getString();
@@ -4382,7 +4382,7 @@ gdjs.Is_32someone_63_46_46_46Code.eventsList51 = function(runtimeScene) {
 gdjs.copyArray(runtimeScene.getObjects("NewText2"), gdjs.Is_32someone_63_46_46_46Code.GDNewText2Objects2);
 
 const objects = gdjs.Is_32someone_63_46_46_46Code.GDNewText2Objects2;
-gdjs.Is_32someone_63_46_46_46Code.userFunc0x1ac0718(runtimeScene, objects);
+gdjs.Is_32someone_63_46_46_46Code.userFunc0x1102870(runtimeScene, objects);
 
 }
 
@@ -4415,7 +4415,7 @@ gdjs.copyArray(runtimeScene.getObjects("NewText2"), gdjs.Is_32someone_63_46_46_4
 }
 
 
-};gdjs.Is_32someone_63_46_46_46Code.userFunc0xbfd838 = function GDJSInlineCode(runtimeScene, objects) {
+};gdjs.Is_32someone_63_46_46_46Code.userFunc0x10caa40 = function GDJSInlineCode(runtimeScene, objects) {
 "use strict";
 // İlk olarak, cevap kutusundan metni alıyorum ve evet başka bir şey yok.
 let girdimeti = runtimeScene.getObjects("NewText2")[0].getString();
@@ -4442,7 +4442,7 @@ gdjs.Is_32someone_63_46_46_46Code.eventsList52 = function(runtimeScene) {
 gdjs.copyArray(runtimeScene.getObjects("NewText2"), gdjs.Is_32someone_63_46_46_46Code.GDNewText2Objects2);
 
 const objects = gdjs.Is_32someone_63_46_46_46Code.GDNewText2Objects2;
-gdjs.Is_32someone_63_46_46_46Code.userFunc0xbfd838(runtimeScene, objects);
+gdjs.Is_32someone_63_46_46_46Code.userFunc0x10caa40(runtimeScene, objects);
 
 }
 
@@ -4791,7 +4791,7 @@ gdjs.copyArray(runtimeScene.getObjects("NewText2"), gdjs.Is_32someone_63_46_46_4
 }
 
 
-};gdjs.Is_32someone_63_46_46_46Code.userFunc0x1d7d7f8 = function GDJSInlineCode(runtimeScene, objects) {
+};gdjs.Is_32someone_63_46_46_46Code.userFunc0xe0bbc0 = function GDJSInlineCode(runtimeScene, objects) {
 "use strict";
 let girdimeti = runtimeScene.getObjects("NewTextInput2")[0].getString();
 let arananKelime = girdimeti
@@ -4847,7 +4847,7 @@ fetch(url)
     runtimeScene.getVariables().get("ŞarkıGirişAlındı").setBoolean(true);
   });
 };
-gdjs.Is_32someone_63_46_46_46Code.userFunc0xd32cd8 = function GDJSInlineCode(runtimeScene, objects) {
+gdjs.Is_32someone_63_46_46_46Code.userFunc0xbd5440 = function GDJSInlineCode(runtimeScene, objects) {
 "use strict";
 let girdimeti = runtimeScene.getObjects("NewTextInput2")[0].getString();
 let arananKelime = girdimeti
@@ -4902,7 +4902,7 @@ fetch(url)
     runtimeScene.getVariables().get("ŞarkıGelişmeAlındı").setBoolean(true);
   });
 };
-gdjs.Is_32someone_63_46_46_46Code.userFunc0x1d7d6b0 = function GDJSInlineCode(runtimeScene, objects) {
+gdjs.Is_32someone_63_46_46_46Code.userFunc0xbcb130 = function GDJSInlineCode(runtimeScene, objects) {
 "use strict";
 let girdimeti = runtimeScene.getObjects("NewTextInput2")[0].getString();
 let arananKelime = girdimeti
@@ -4957,7 +4957,7 @@ fetch(url)
     runtimeScene.getVariables().get("ŞarkıÇıkışAlındı").setBoolean(true);
   });
 };
-gdjs.Is_32someone_63_46_46_46Code.userFunc0xccf160 = function GDJSInlineCode(runtimeScene, objects) {
+gdjs.Is_32someone_63_46_46_46Code.userFunc0xbd4ef8 = function GDJSInlineCode(runtimeScene, objects) {
 "use strict";
 let girdimeti = runtimeScene.getObjects("NewTextInput2")[0].getString();
 let arananKelime = girdimeti
@@ -5020,7 +5020,7 @@ gdjs.copyArray(asyncObjectsList.getObjects("NewTextInput2"), gdjs.Is_32someone_6
 
 
 const objects = gdjs.Is_32someone_63_46_46_46Code.GDNewTextInput2Objects3;
-gdjs.Is_32someone_63_46_46_46Code.userFunc0x1d7d7f8(runtimeScene, objects);
+gdjs.Is_32someone_63_46_46_46Code.userFunc0xe0bbc0(runtimeScene, objects);
 
 }
 
@@ -5052,7 +5052,7 @@ gdjs.copyArray(asyncObjectsList.getObjects("NewTextInput2"), gdjs.Is_32someone_6
 
 
 const objects = gdjs.Is_32someone_63_46_46_46Code.GDNewTextInput2Objects3;
-gdjs.Is_32someone_63_46_46_46Code.userFunc0xd32cd8(runtimeScene, objects);
+gdjs.Is_32someone_63_46_46_46Code.userFunc0xbd5440(runtimeScene, objects);
 
 }
 
@@ -5084,7 +5084,7 @@ gdjs.copyArray(asyncObjectsList.getObjects("NewTextInput2"), gdjs.Is_32someone_6
 
 
 const objects = gdjs.Is_32someone_63_46_46_46Code.GDNewTextInput2Objects3;
-gdjs.Is_32someone_63_46_46_46Code.userFunc0x1d7d6b0(runtimeScene, objects);
+gdjs.Is_32someone_63_46_46_46Code.userFunc0xbcb130(runtimeScene, objects);
 
 }
 
@@ -5116,7 +5116,7 @@ gdjs.copyArray(asyncObjectsList.getObjects("NewTextInput2"), gdjs.Is_32someone_6
 
 
 const objects = gdjs.Is_32someone_63_46_46_46Code.GDNewTextInput2Objects3;
-gdjs.Is_32someone_63_46_46_46Code.userFunc0xccf160(runtimeScene, objects);
+gdjs.Is_32someone_63_46_46_46Code.userFunc0xbd4ef8(runtimeScene, objects);
 
 }
 
@@ -5142,7 +5142,7 @@ gdjs.copyArray(asyncObjectsList.getObjects("NewText2"), gdjs.Is_32someone_63_46_
 }
 
 
-};gdjs.Is_32someone_63_46_46_46Code.asyncCallback22673556 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Is_32someone_63_46_46_46Code.asyncCallback22674284 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Is_32someone_63_46_46_46Code.localVariables);
 {runtimeScene.getScene().getVariables().getFromIndex(117).setBoolean(false);
 }
@@ -5151,7 +5151,7 @@ asyncObjectsList.restoreLocalVariablesContainers(gdjs.Is_32someone_63_46_46_46Co
 gdjs.Is_32someone_63_46_46_46Code.eventsList57(runtimeScene, asyncObjectsList);} //End of subevents
 gdjs.Is_32someone_63_46_46_46Code.localVariables.length = 0;
 }
-gdjs.Is_32someone_63_46_46_46Code.idToCallbackMap.set(22673556, gdjs.Is_32someone_63_46_46_46Code.asyncCallback22673556);
+gdjs.Is_32someone_63_46_46_46Code.idToCallbackMap.set(22674284, gdjs.Is_32someone_63_46_46_46Code.asyncCallback22674284);
 gdjs.Is_32someone_63_46_46_46Code.eventsList58 = function(runtimeScene) {
 
 {
@@ -5163,14 +5163,14 @@ const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Is_32someone_63_46_46_46Code.localVariables);
 for (const obj of gdjs.Is_32someone_63_46_46_46Code.GDNewText2Objects1) asyncObjectsList.addObject("NewText2", obj);
 for (const obj of gdjs.Is_32someone_63_46_46_46Code.GDNewTextInput2Objects1) asyncObjectsList.addObject("NewTextInput2", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1.65), (runtimeScene) => (gdjs.Is_32someone_63_46_46_46Code.asyncCallback22673556(runtimeScene, asyncObjectsList)), 22673556, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1.65), (runtimeScene) => (gdjs.Is_32someone_63_46_46_46Code.asyncCallback22674284(runtimeScene, asyncObjectsList)), 22674284, asyncObjectsList);
 }
 }
 
 }
 
 
-};gdjs.Is_32someone_63_46_46_46Code.userFunc0x1ab1f98 = function GDJSInlineCode(runtimeScene, objects) {
+};gdjs.Is_32someone_63_46_46_46Code.userFunc0xdab5f8 = function GDJSInlineCode(runtimeScene, objects) {
 "use strict";
 let girdimeti = runtimeScene.getObjects("NewTextInput2")[0].getString();
 let arananKelime = girdimeti
@@ -5225,7 +5225,7 @@ fetch(url)
     runtimeScene.getVariables().get("ŞarkıGirişAlındı").setBoolean(true);
   });
 };
-gdjs.Is_32someone_63_46_46_46Code.userFunc0xc01e78 = function GDJSInlineCode(runtimeScene, objects) {
+gdjs.Is_32someone_63_46_46_46Code.userFunc0xbdb808 = function GDJSInlineCode(runtimeScene, objects) {
 "use strict";
 let girdimeti = runtimeScene.getObjects("NewTextInput2")[0].getString();
 let arananKelime = girdimeti
@@ -5280,7 +5280,7 @@ fetch(url)
     runtimeScene.getVariables().get("ŞarkıGelişmeAlındı").setBoolean(true);
   });
 };
-gdjs.Is_32someone_63_46_46_46Code.userFunc0xbdda48 = function GDJSInlineCode(runtimeScene, objects) {
+gdjs.Is_32someone_63_46_46_46Code.userFunc0xbdb450 = function GDJSInlineCode(runtimeScene, objects) {
 "use strict";
 let girdimeti = runtimeScene.getObjects("NewTextInput2")[0].getString();
 let arananKelime = girdimeti
@@ -5335,7 +5335,7 @@ fetch(url)
     runtimeScene.getVariables().get("ŞarkıÇıkışAlındı").setBoolean(true);
   });
 };
-gdjs.Is_32someone_63_46_46_46Code.userFunc0xc01bf0 = function GDJSInlineCode(runtimeScene, objects) {
+gdjs.Is_32someone_63_46_46_46Code.userFunc0xdacf60 = function GDJSInlineCode(runtimeScene, objects) {
 "use strict";
 let girdimeti = runtimeScene.getObjects("NewTextInput2")[0].getString();
 let arananKelime = girdimeti
@@ -5398,7 +5398,7 @@ gdjs.copyArray(asyncObjectsList.getObjects("NewTextInput2"), gdjs.Is_32someone_6
 
 
 const objects = gdjs.Is_32someone_63_46_46_46Code.GDNewTextInput2Objects3;
-gdjs.Is_32someone_63_46_46_46Code.userFunc0x1ab1f98(runtimeScene, objects);
+gdjs.Is_32someone_63_46_46_46Code.userFunc0xdab5f8(runtimeScene, objects);
 
 }
 
@@ -5430,7 +5430,7 @@ gdjs.copyArray(asyncObjectsList.getObjects("NewTextInput2"), gdjs.Is_32someone_6
 
 
 const objects = gdjs.Is_32someone_63_46_46_46Code.GDNewTextInput2Objects3;
-gdjs.Is_32someone_63_46_46_46Code.userFunc0xc01e78(runtimeScene, objects);
+gdjs.Is_32someone_63_46_46_46Code.userFunc0xbdb808(runtimeScene, objects);
 
 }
 
@@ -5462,7 +5462,7 @@ gdjs.copyArray(asyncObjectsList.getObjects("NewTextInput2"), gdjs.Is_32someone_6
 
 
 const objects = gdjs.Is_32someone_63_46_46_46Code.GDNewTextInput2Objects3;
-gdjs.Is_32someone_63_46_46_46Code.userFunc0xbdda48(runtimeScene, objects);
+gdjs.Is_32someone_63_46_46_46Code.userFunc0xbdb450(runtimeScene, objects);
 
 }
 
@@ -5494,7 +5494,7 @@ gdjs.copyArray(asyncObjectsList.getObjects("NewTextInput2"), gdjs.Is_32someone_6
 
 
 const objects = gdjs.Is_32someone_63_46_46_46Code.GDNewTextInput2Objects3;
-gdjs.Is_32someone_63_46_46_46Code.userFunc0xc01bf0(runtimeScene, objects);
+gdjs.Is_32someone_63_46_46_46Code.userFunc0xdacf60(runtimeScene, objects);
 
 }
 
@@ -5520,7 +5520,7 @@ gdjs.copyArray(asyncObjectsList.getObjects("NewText2"), gdjs.Is_32someone_63_46_
 }
 
 
-};gdjs.Is_32someone_63_46_46_46Code.asyncCallback22690044 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Is_32someone_63_46_46_46Code.asyncCallback22690772 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Is_32someone_63_46_46_46Code.localVariables);
 {runtimeScene.getScene().getVariables().getFromIndex(117).setBoolean(false);
 }
@@ -5529,7 +5529,7 @@ asyncObjectsList.restoreLocalVariablesContainers(gdjs.Is_32someone_63_46_46_46Co
 gdjs.Is_32someone_63_46_46_46Code.eventsList59(runtimeScene, asyncObjectsList);} //End of subevents
 gdjs.Is_32someone_63_46_46_46Code.localVariables.length = 0;
 }
-gdjs.Is_32someone_63_46_46_46Code.idToCallbackMap.set(22690044, gdjs.Is_32someone_63_46_46_46Code.asyncCallback22690044);
+gdjs.Is_32someone_63_46_46_46Code.idToCallbackMap.set(22690772, gdjs.Is_32someone_63_46_46_46Code.asyncCallback22690772);
 gdjs.Is_32someone_63_46_46_46Code.eventsList60 = function(runtimeScene) {
 
 {
@@ -5541,14 +5541,14 @@ const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Is_32someone_63_46_46_46Code.localVariables);
 for (const obj of gdjs.Is_32someone_63_46_46_46Code.GDNewText2Objects1) asyncObjectsList.addObject("NewText2", obj);
 for (const obj of gdjs.Is_32someone_63_46_46_46Code.GDNewTextInput2Objects1) asyncObjectsList.addObject("NewTextInput2", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1.65), (runtimeScene) => (gdjs.Is_32someone_63_46_46_46Code.asyncCallback22690044(runtimeScene, asyncObjectsList)), 22690044, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1.65), (runtimeScene) => (gdjs.Is_32someone_63_46_46_46Code.asyncCallback22690772(runtimeScene, asyncObjectsList)), 22690772, asyncObjectsList);
 }
 }
 
 }
 
 
-};gdjs.Is_32someone_63_46_46_46Code.userFunc0x17c06a8 = function GDJSInlineCode(runtimeScene, objects) {
+};gdjs.Is_32someone_63_46_46_46Code.userFunc0xe0a3f0 = function GDJSInlineCode(runtimeScene, objects) {
 "use strict";
 let girdimeti = runtimeScene.getObjects("NewTextInput2")[0].getString();
 let arananKelime = girdimeti
@@ -5603,7 +5603,7 @@ fetch(url)
     runtimeScene.getVariables().get("ŞarkıGirişAlındı").setBoolean(true);
   });
 };
-gdjs.Is_32someone_63_46_46_46Code.userFunc0x1f2e9a8 = function GDJSInlineCode(runtimeScene, objects) {
+gdjs.Is_32someone_63_46_46_46Code.userFunc0xdaedd8 = function GDJSInlineCode(runtimeScene, objects) {
 "use strict";
 let girdimeti = runtimeScene.getObjects("NewTextInput2")[0].getString();
 let arananKelime = girdimeti
@@ -5658,7 +5658,7 @@ fetch(url)
     runtimeScene.getVariables().get("ŞarkıGelişmeAlındı").setBoolean(true);
   });
 };
-gdjs.Is_32someone_63_46_46_46Code.userFunc0xf745d8 = function GDJSInlineCode(runtimeScene, objects) {
+gdjs.Is_32someone_63_46_46_46Code.userFunc0xdaefb8 = function GDJSInlineCode(runtimeScene, objects) {
 "use strict";
 let girdimeti = runtimeScene.getObjects("NewTextInput2")[0].getString();
 let arananKelime = girdimeti
@@ -5713,7 +5713,7 @@ fetch(url)
     runtimeScene.getVariables().get("ŞarkıÇıkışAlındı").setBoolean(true);
   });
 };
-gdjs.Is_32someone_63_46_46_46Code.userFunc0x17c09b8 = function GDJSInlineCode(runtimeScene, objects) {
+gdjs.Is_32someone_63_46_46_46Code.userFunc0xdaebf0 = function GDJSInlineCode(runtimeScene, objects) {
 "use strict";
 let girdimeti = runtimeScene.getObjects("NewTextInput2")[0].getString();
 let arananKelime = girdimeti
@@ -5776,7 +5776,7 @@ gdjs.copyArray(asyncObjectsList.getObjects("NewTextInput2"), gdjs.Is_32someone_6
 
 
 const objects = gdjs.Is_32someone_63_46_46_46Code.GDNewTextInput2Objects3;
-gdjs.Is_32someone_63_46_46_46Code.userFunc0x17c06a8(runtimeScene, objects);
+gdjs.Is_32someone_63_46_46_46Code.userFunc0xe0a3f0(runtimeScene, objects);
 
 }
 
@@ -5808,7 +5808,7 @@ gdjs.copyArray(asyncObjectsList.getObjects("NewTextInput2"), gdjs.Is_32someone_6
 
 
 const objects = gdjs.Is_32someone_63_46_46_46Code.GDNewTextInput2Objects3;
-gdjs.Is_32someone_63_46_46_46Code.userFunc0x1f2e9a8(runtimeScene, objects);
+gdjs.Is_32someone_63_46_46_46Code.userFunc0xdaedd8(runtimeScene, objects);
 
 }
 
@@ -5840,7 +5840,7 @@ gdjs.copyArray(asyncObjectsList.getObjects("NewTextInput2"), gdjs.Is_32someone_6
 
 
 const objects = gdjs.Is_32someone_63_46_46_46Code.GDNewTextInput2Objects3;
-gdjs.Is_32someone_63_46_46_46Code.userFunc0xf745d8(runtimeScene, objects);
+gdjs.Is_32someone_63_46_46_46Code.userFunc0xdaefb8(runtimeScene, objects);
 
 }
 
@@ -5872,7 +5872,7 @@ gdjs.copyArray(asyncObjectsList.getObjects("NewTextInput2"), gdjs.Is_32someone_6
 
 
 const objects = gdjs.Is_32someone_63_46_46_46Code.GDNewTextInput2Objects3;
-gdjs.Is_32someone_63_46_46_46Code.userFunc0x17c09b8(runtimeScene, objects);
+gdjs.Is_32someone_63_46_46_46Code.userFunc0xdaebf0(runtimeScene, objects);
 
 }
 
@@ -5898,7 +5898,7 @@ gdjs.copyArray(asyncObjectsList.getObjects("NewText2"), gdjs.Is_32someone_63_46_
 }
 
 
-};gdjs.Is_32someone_63_46_46_46Code.asyncCallback22704004 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Is_32someone_63_46_46_46Code.asyncCallback22704732 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Is_32someone_63_46_46_46Code.localVariables);
 {runtimeScene.getScene().getVariables().getFromIndex(117).setBoolean(false);
 }
@@ -5907,7 +5907,7 @@ asyncObjectsList.restoreLocalVariablesContainers(gdjs.Is_32someone_63_46_46_46Co
 gdjs.Is_32someone_63_46_46_46Code.eventsList61(runtimeScene, asyncObjectsList);} //End of subevents
 gdjs.Is_32someone_63_46_46_46Code.localVariables.length = 0;
 }
-gdjs.Is_32someone_63_46_46_46Code.idToCallbackMap.set(22704004, gdjs.Is_32someone_63_46_46_46Code.asyncCallback22704004);
+gdjs.Is_32someone_63_46_46_46Code.idToCallbackMap.set(22704732, gdjs.Is_32someone_63_46_46_46Code.asyncCallback22704732);
 gdjs.Is_32someone_63_46_46_46Code.eventsList62 = function(runtimeScene) {
 
 {
@@ -5919,14 +5919,14 @@ const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Is_32someone_63_46_46_46Code.localVariables);
 for (const obj of gdjs.Is_32someone_63_46_46_46Code.GDNewText2Objects1) asyncObjectsList.addObject("NewText2", obj);
 for (const obj of gdjs.Is_32someone_63_46_46_46Code.GDNewTextInput2Objects1) asyncObjectsList.addObject("NewTextInput2", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1.65), (runtimeScene) => (gdjs.Is_32someone_63_46_46_46Code.asyncCallback22704004(runtimeScene, asyncObjectsList)), 22704004, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1.65), (runtimeScene) => (gdjs.Is_32someone_63_46_46_46Code.asyncCallback22704732(runtimeScene, asyncObjectsList)), 22704732, asyncObjectsList);
 }
 }
 
 }
 
 
-};gdjs.Is_32someone_63_46_46_46Code.userFunc0x122cfe0 = function GDJSInlineCode(runtimeScene, objects) {
+};gdjs.Is_32someone_63_46_46_46Code.userFunc0x1e9b060 = function GDJSInlineCode(runtimeScene, objects) {
 "use strict";
 let girdimeti = runtimeScene.getObjects("NewTextInput2")[0].getString();
 let arananKelime = girdimeti
@@ -5981,7 +5981,7 @@ fetch(url)
     runtimeScene.getVariables().get("ŞarkıGirişAlındı").setBoolean(true);
   });
 };
-gdjs.Is_32someone_63_46_46_46Code.userFunc0x122d4c8 = function GDJSInlineCode(runtimeScene, objects) {
+gdjs.Is_32someone_63_46_46_46Code.userFunc0xdc7538 = function GDJSInlineCode(runtimeScene, objects) {
 "use strict";
 let girdimeti = runtimeScene.getObjects("NewTextInput2")[0].getString();
 let arananKelime = girdimeti
@@ -6036,7 +6036,7 @@ fetch(url)
     runtimeScene.getVariables().get("ŞarkıGelişmeAlındı").setBoolean(true);
   });
 };
-gdjs.Is_32someone_63_46_46_46Code.userFunc0x1383fe8 = function GDJSInlineCode(runtimeScene, objects) {
+gdjs.Is_32someone_63_46_46_46Code.userFunc0xdc7628 = function GDJSInlineCode(runtimeScene, objects) {
 "use strict";
 let girdimeti = runtimeScene.getObjects("NewTextInput2")[0].getString();
 let arananKelime = girdimeti
@@ -6091,7 +6091,7 @@ fetch(url)
     runtimeScene.getVariables().get("ŞarkıÇıkışAlındı").setBoolean(true);
   });
 };
-gdjs.Is_32someone_63_46_46_46Code.userFunc0x122d2c8 = function GDJSInlineCode(runtimeScene, objects) {
+gdjs.Is_32someone_63_46_46_46Code.userFunc0xdc9d78 = function GDJSInlineCode(runtimeScene, objects) {
 "use strict";
 let girdimeti = runtimeScene.getObjects("NewTextInput2")[0].getString();
 let arananKelime = girdimeti
@@ -6154,7 +6154,7 @@ gdjs.copyArray(asyncObjectsList.getObjects("NewTextInput2"), gdjs.Is_32someone_6
 
 
 const objects = gdjs.Is_32someone_63_46_46_46Code.GDNewTextInput2Objects3;
-gdjs.Is_32someone_63_46_46_46Code.userFunc0x122cfe0(runtimeScene, objects);
+gdjs.Is_32someone_63_46_46_46Code.userFunc0x1e9b060(runtimeScene, objects);
 
 }
 
@@ -6186,7 +6186,7 @@ gdjs.copyArray(asyncObjectsList.getObjects("NewTextInput2"), gdjs.Is_32someone_6
 
 
 const objects = gdjs.Is_32someone_63_46_46_46Code.GDNewTextInput2Objects3;
-gdjs.Is_32someone_63_46_46_46Code.userFunc0x122d4c8(runtimeScene, objects);
+gdjs.Is_32someone_63_46_46_46Code.userFunc0xdc7538(runtimeScene, objects);
 
 }
 
@@ -6218,7 +6218,7 @@ gdjs.copyArray(asyncObjectsList.getObjects("NewTextInput2"), gdjs.Is_32someone_6
 
 
 const objects = gdjs.Is_32someone_63_46_46_46Code.GDNewTextInput2Objects3;
-gdjs.Is_32someone_63_46_46_46Code.userFunc0x1383fe8(runtimeScene, objects);
+gdjs.Is_32someone_63_46_46_46Code.userFunc0xdc7628(runtimeScene, objects);
 
 }
 
@@ -6250,7 +6250,7 @@ gdjs.copyArray(asyncObjectsList.getObjects("NewTextInput2"), gdjs.Is_32someone_6
 
 
 const objects = gdjs.Is_32someone_63_46_46_46Code.GDNewTextInput2Objects3;
-gdjs.Is_32someone_63_46_46_46Code.userFunc0x122d2c8(runtimeScene, objects);
+gdjs.Is_32someone_63_46_46_46Code.userFunc0xdc9d78(runtimeScene, objects);
 
 }
 
@@ -6276,7 +6276,7 @@ gdjs.copyArray(asyncObjectsList.getObjects("NewText2"), gdjs.Is_32someone_63_46_
 }
 
 
-};gdjs.Is_32someone_63_46_46_46Code.asyncCallback22730956 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Is_32someone_63_46_46_46Code.asyncCallback22731684 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Is_32someone_63_46_46_46Code.localVariables);
 {runtimeScene.getScene().getVariables().getFromIndex(117).setBoolean(false);
 }
@@ -6285,7 +6285,7 @@ asyncObjectsList.restoreLocalVariablesContainers(gdjs.Is_32someone_63_46_46_46Co
 gdjs.Is_32someone_63_46_46_46Code.eventsList63(runtimeScene, asyncObjectsList);} //End of subevents
 gdjs.Is_32someone_63_46_46_46Code.localVariables.length = 0;
 }
-gdjs.Is_32someone_63_46_46_46Code.idToCallbackMap.set(22730956, gdjs.Is_32someone_63_46_46_46Code.asyncCallback22730956);
+gdjs.Is_32someone_63_46_46_46Code.idToCallbackMap.set(22731684, gdjs.Is_32someone_63_46_46_46Code.asyncCallback22731684);
 gdjs.Is_32someone_63_46_46_46Code.eventsList64 = function(runtimeScene) {
 
 {
@@ -6297,14 +6297,14 @@ const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Is_32someone_63_46_46_46Code.localVariables);
 for (const obj of gdjs.Is_32someone_63_46_46_46Code.GDNewText2Objects1) asyncObjectsList.addObject("NewText2", obj);
 for (const obj of gdjs.Is_32someone_63_46_46_46Code.GDNewTextInput2Objects1) asyncObjectsList.addObject("NewTextInput2", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1.65), (runtimeScene) => (gdjs.Is_32someone_63_46_46_46Code.asyncCallback22730956(runtimeScene, asyncObjectsList)), 22730956, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1.65), (runtimeScene) => (gdjs.Is_32someone_63_46_46_46Code.asyncCallback22731684(runtimeScene, asyncObjectsList)), 22731684, asyncObjectsList);
 }
 }
 
 }
 
 
-};gdjs.Is_32someone_63_46_46_46Code.userFunc0xda7638 = function GDJSInlineCode(runtimeScene, objects) {
+};gdjs.Is_32someone_63_46_46_46Code.userFunc0x1285b40 = function GDJSInlineCode(runtimeScene, objects) {
 "use strict";
 let girdimeti = runtimeScene.getObjects("NewTextInput2")[0].getString();
 let arananKelime = girdimeti
@@ -6359,7 +6359,7 @@ fetch(url)
     runtimeScene.getVariables().get("ŞarkıGirişAlındı").setBoolean(true);
   });
 };
-gdjs.Is_32someone_63_46_46_46Code.userFunc0x12fc690 = function GDJSInlineCode(runtimeScene, objects) {
+gdjs.Is_32someone_63_46_46_46Code.userFunc0x1285360 = function GDJSInlineCode(runtimeScene, objects) {
 "use strict";
 let girdimeti = runtimeScene.getObjects("NewTextInput2")[0].getString();
 let arananKelime = girdimeti
@@ -6414,7 +6414,7 @@ fetch(url)
     runtimeScene.getVariables().get("ŞarkıGelişmeAlındı").setBoolean(true);
   });
 };
-gdjs.Is_32someone_63_46_46_46Code.userFunc0xda7758 = function GDJSInlineCode(runtimeScene, objects) {
+gdjs.Is_32someone_63_46_46_46Code.userFunc0xff3c50 = function GDJSInlineCode(runtimeScene, objects) {
 "use strict";
 let girdimeti = runtimeScene.getObjects("NewTextInput2")[0].getString();
 let arananKelime = girdimeti
@@ -6469,7 +6469,7 @@ fetch(url)
     runtimeScene.getVariables().get("ŞarkıÇıkışAlındı").setBoolean(true);
   });
 };
-gdjs.Is_32someone_63_46_46_46Code.userFunc0x1ab5580 = function GDJSInlineCode(runtimeScene, objects) {
+gdjs.Is_32someone_63_46_46_46Code.userFunc0xff0f48 = function GDJSInlineCode(runtimeScene, objects) {
 "use strict";
 let girdimeti = runtimeScene.getObjects("NewTextInput2")[0].getString();
 let arananKelime = girdimeti
@@ -6532,7 +6532,7 @@ gdjs.copyArray(asyncObjectsList.getObjects("NewTextInput2"), gdjs.Is_32someone_6
 
 
 const objects = gdjs.Is_32someone_63_46_46_46Code.GDNewTextInput2Objects3;
-gdjs.Is_32someone_63_46_46_46Code.userFunc0xda7638(runtimeScene, objects);
+gdjs.Is_32someone_63_46_46_46Code.userFunc0x1285b40(runtimeScene, objects);
 
 }
 
@@ -6564,7 +6564,7 @@ gdjs.copyArray(asyncObjectsList.getObjects("NewTextInput2"), gdjs.Is_32someone_6
 
 
 const objects = gdjs.Is_32someone_63_46_46_46Code.GDNewTextInput2Objects3;
-gdjs.Is_32someone_63_46_46_46Code.userFunc0x12fc690(runtimeScene, objects);
+gdjs.Is_32someone_63_46_46_46Code.userFunc0x1285360(runtimeScene, objects);
 
 }
 
@@ -6596,7 +6596,7 @@ gdjs.copyArray(asyncObjectsList.getObjects("NewTextInput2"), gdjs.Is_32someone_6
 
 
 const objects = gdjs.Is_32someone_63_46_46_46Code.GDNewTextInput2Objects3;
-gdjs.Is_32someone_63_46_46_46Code.userFunc0xda7758(runtimeScene, objects);
+gdjs.Is_32someone_63_46_46_46Code.userFunc0xff3c50(runtimeScene, objects);
 
 }
 
@@ -6628,7 +6628,7 @@ gdjs.copyArray(asyncObjectsList.getObjects("NewTextInput2"), gdjs.Is_32someone_6
 
 
 const objects = gdjs.Is_32someone_63_46_46_46Code.GDNewTextInput2Objects3;
-gdjs.Is_32someone_63_46_46_46Code.userFunc0x1ab5580(runtimeScene, objects);
+gdjs.Is_32someone_63_46_46_46Code.userFunc0xff0f48(runtimeScene, objects);
 
 }
 
@@ -6654,7 +6654,7 @@ gdjs.copyArray(asyncObjectsList.getObjects("NewText2"), gdjs.Is_32someone_63_46_
 }
 
 
-};gdjs.Is_32someone_63_46_46_46Code.asyncCallback22753108 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Is_32someone_63_46_46_46Code.asyncCallback22753836 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Is_32someone_63_46_46_46Code.localVariables);
 {runtimeScene.getScene().getVariables().getFromIndex(117).setBoolean(false);
 }
@@ -6663,7 +6663,7 @@ asyncObjectsList.restoreLocalVariablesContainers(gdjs.Is_32someone_63_46_46_46Co
 gdjs.Is_32someone_63_46_46_46Code.eventsList65(runtimeScene, asyncObjectsList);} //End of subevents
 gdjs.Is_32someone_63_46_46_46Code.localVariables.length = 0;
 }
-gdjs.Is_32someone_63_46_46_46Code.idToCallbackMap.set(22753108, gdjs.Is_32someone_63_46_46_46Code.asyncCallback22753108);
+gdjs.Is_32someone_63_46_46_46Code.idToCallbackMap.set(22753836, gdjs.Is_32someone_63_46_46_46Code.asyncCallback22753836);
 gdjs.Is_32someone_63_46_46_46Code.eventsList66 = function(runtimeScene) {
 
 {
@@ -6675,14 +6675,14 @@ const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Is_32someone_63_46_46_46Code.localVariables);
 for (const obj of gdjs.Is_32someone_63_46_46_46Code.GDNewText2Objects1) asyncObjectsList.addObject("NewText2", obj);
 for (const obj of gdjs.Is_32someone_63_46_46_46Code.GDNewTextInput2Objects1) asyncObjectsList.addObject("NewTextInput2", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1.65), (runtimeScene) => (gdjs.Is_32someone_63_46_46_46Code.asyncCallback22753108(runtimeScene, asyncObjectsList)), 22753108, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1.65), (runtimeScene) => (gdjs.Is_32someone_63_46_46_46Code.asyncCallback22753836(runtimeScene, asyncObjectsList)), 22753836, asyncObjectsList);
 }
 }
 
 }
 
 
-};gdjs.Is_32someone_63_46_46_46Code.userFunc0x1dc3a48 = function GDJSInlineCode(runtimeScene, objects) {
+};gdjs.Is_32someone_63_46_46_46Code.userFunc0xbc2e10 = function GDJSInlineCode(runtimeScene, objects) {
 "use strict";
 let girdimeti = runtimeScene.getObjects("NewTextInput2")[0].getString();
 let arananKelime = girdimeti
@@ -6737,7 +6737,7 @@ fetch(url)
     runtimeScene.getVariables().get("ŞarkıGirişAlındı").setBoolean(true);
   });
 };
-gdjs.Is_32someone_63_46_46_46Code.userFunc0xbc3168 = function GDJSInlineCode(runtimeScene, objects) {
+gdjs.Is_32someone_63_46_46_46Code.userFunc0xbc2a70 = function GDJSInlineCode(runtimeScene, objects) {
 "use strict";
 let girdimeti = runtimeScene.getObjects("NewTextInput2")[0].getString();
 let arananKelime = girdimeti
@@ -6792,7 +6792,7 @@ fetch(url)
     runtimeScene.getVariables().get("ŞarkıGelişmeAlındı").setBoolean(true);
   });
 };
-gdjs.Is_32someone_63_46_46_46Code.userFunc0xbc36e8 = function GDJSInlineCode(runtimeScene, objects) {
+gdjs.Is_32someone_63_46_46_46Code.userFunc0xbc2cc8 = function GDJSInlineCode(runtimeScene, objects) {
 "use strict";
 let girdimeti = runtimeScene.getObjects("NewTextInput2")[0].getString();
 let arananKelime = girdimeti
@@ -6847,7 +6847,7 @@ fetch(url)
     runtimeScene.getVariables().get("ŞarkıÇıkışAlındı").setBoolean(true);
   });
 };
-gdjs.Is_32someone_63_46_46_46Code.userFunc0xbd7540 = function GDJSInlineCode(runtimeScene, objects) {
+gdjs.Is_32someone_63_46_46_46Code.userFunc0xbc31b8 = function GDJSInlineCode(runtimeScene, objects) {
 "use strict";
 let girdimeti = runtimeScene.getObjects("NewTextInput2")[0].getString();
 let arananKelime = girdimeti
@@ -6910,7 +6910,7 @@ gdjs.copyArray(asyncObjectsList.getObjects("NewTextInput2"), gdjs.Is_32someone_6
 
 
 const objects = gdjs.Is_32someone_63_46_46_46Code.GDNewTextInput2Objects3;
-gdjs.Is_32someone_63_46_46_46Code.userFunc0x1dc3a48(runtimeScene, objects);
+gdjs.Is_32someone_63_46_46_46Code.userFunc0xbc2e10(runtimeScene, objects);
 
 }
 
@@ -6942,7 +6942,7 @@ gdjs.copyArray(asyncObjectsList.getObjects("NewTextInput2"), gdjs.Is_32someone_6
 
 
 const objects = gdjs.Is_32someone_63_46_46_46Code.GDNewTextInput2Objects3;
-gdjs.Is_32someone_63_46_46_46Code.userFunc0xbc3168(runtimeScene, objects);
+gdjs.Is_32someone_63_46_46_46Code.userFunc0xbc2a70(runtimeScene, objects);
 
 }
 
@@ -6974,7 +6974,7 @@ gdjs.copyArray(asyncObjectsList.getObjects("NewTextInput2"), gdjs.Is_32someone_6
 
 
 const objects = gdjs.Is_32someone_63_46_46_46Code.GDNewTextInput2Objects3;
-gdjs.Is_32someone_63_46_46_46Code.userFunc0xbc36e8(runtimeScene, objects);
+gdjs.Is_32someone_63_46_46_46Code.userFunc0xbc2cc8(runtimeScene, objects);
 
 }
 
@@ -7006,7 +7006,7 @@ gdjs.copyArray(asyncObjectsList.getObjects("NewTextInput2"), gdjs.Is_32someone_6
 
 
 const objects = gdjs.Is_32someone_63_46_46_46Code.GDNewTextInput2Objects3;
-gdjs.Is_32someone_63_46_46_46Code.userFunc0xbd7540(runtimeScene, objects);
+gdjs.Is_32someone_63_46_46_46Code.userFunc0xbc31b8(runtimeScene, objects);
 
 }
 
@@ -7032,7 +7032,7 @@ gdjs.copyArray(asyncObjectsList.getObjects("NewText2"), gdjs.Is_32someone_63_46_
 }
 
 
-};gdjs.Is_32someone_63_46_46_46Code.asyncCallback22768724 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Is_32someone_63_46_46_46Code.asyncCallback22769452 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Is_32someone_63_46_46_46Code.localVariables);
 {runtimeScene.getScene().getVariables().getFromIndex(117).setBoolean(false);
 }
@@ -7041,7 +7041,7 @@ asyncObjectsList.restoreLocalVariablesContainers(gdjs.Is_32someone_63_46_46_46Co
 gdjs.Is_32someone_63_46_46_46Code.eventsList67(runtimeScene, asyncObjectsList);} //End of subevents
 gdjs.Is_32someone_63_46_46_46Code.localVariables.length = 0;
 }
-gdjs.Is_32someone_63_46_46_46Code.idToCallbackMap.set(22768724, gdjs.Is_32someone_63_46_46_46Code.asyncCallback22768724);
+gdjs.Is_32someone_63_46_46_46Code.idToCallbackMap.set(22769452, gdjs.Is_32someone_63_46_46_46Code.asyncCallback22769452);
 gdjs.Is_32someone_63_46_46_46Code.eventsList68 = function(runtimeScene) {
 
 {
@@ -7053,14 +7053,14 @@ const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Is_32someone_63_46_46_46Code.localVariables);
 for (const obj of gdjs.Is_32someone_63_46_46_46Code.GDNewText2Objects1) asyncObjectsList.addObject("NewText2", obj);
 for (const obj of gdjs.Is_32someone_63_46_46_46Code.GDNewTextInput2Objects1) asyncObjectsList.addObject("NewTextInput2", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1.65), (runtimeScene) => (gdjs.Is_32someone_63_46_46_46Code.asyncCallback22768724(runtimeScene, asyncObjectsList)), 22768724, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1.65), (runtimeScene) => (gdjs.Is_32someone_63_46_46_46Code.asyncCallback22769452(runtimeScene, asyncObjectsList)), 22769452, asyncObjectsList);
 }
 }
 
 }
 
 
-};gdjs.Is_32someone_63_46_46_46Code.userFunc0xf8fe08 = function GDJSInlineCode(runtimeScene, objects) {
+};gdjs.Is_32someone_63_46_46_46Code.userFunc0x12716f8 = function GDJSInlineCode(runtimeScene, objects) {
 "use strict";
 let girdimeti = runtimeScene.getObjects("NewTextInput2")[0].getString();
 let arananKelime = girdimeti
@@ -7115,7 +7115,7 @@ fetch(url)
     runtimeScene.getVariables().get("ŞarkıGirişAlındı").setBoolean(true);
   });
 };
-gdjs.Is_32someone_63_46_46_46Code.userFunc0xc57950 = function GDJSInlineCode(runtimeScene, objects) {
+gdjs.Is_32someone_63_46_46_46Code.userFunc0xe01dc8 = function GDJSInlineCode(runtimeScene, objects) {
 "use strict";
 let girdimeti = runtimeScene.getObjects("NewTextInput2")[0].getString();
 let arananKelime = girdimeti
@@ -7170,7 +7170,7 @@ fetch(url)
     runtimeScene.getVariables().get("ŞarkıGelişmeAlındı").setBoolean(true);
   });
 };
-gdjs.Is_32someone_63_46_46_46Code.userFunc0xf8fd60 = function GDJSInlineCode(runtimeScene, objects) {
+gdjs.Is_32someone_63_46_46_46Code.userFunc0x134d958 = function GDJSInlineCode(runtimeScene, objects) {
 "use strict";
 let girdimeti = runtimeScene.getObjects("NewTextInput2")[0].getString();
 let arananKelime = girdimeti
@@ -7225,7 +7225,7 @@ fetch(url)
     runtimeScene.getVariables().get("ŞarkıÇıkışAlındı").setBoolean(true);
   });
 };
-gdjs.Is_32someone_63_46_46_46Code.userFunc0x13ccd30 = function GDJSInlineCode(runtimeScene, objects) {
+gdjs.Is_32someone_63_46_46_46Code.userFunc0x17834b0 = function GDJSInlineCode(runtimeScene, objects) {
 "use strict";
 let girdimeti = runtimeScene.getObjects("NewTextInput2")[0].getString();
 let arananKelime = girdimeti
@@ -7288,7 +7288,7 @@ gdjs.copyArray(asyncObjectsList.getObjects("NewTextInput2"), gdjs.Is_32someone_6
 
 
 const objects = gdjs.Is_32someone_63_46_46_46Code.GDNewTextInput2Objects3;
-gdjs.Is_32someone_63_46_46_46Code.userFunc0xf8fe08(runtimeScene, objects);
+gdjs.Is_32someone_63_46_46_46Code.userFunc0x12716f8(runtimeScene, objects);
 
 }
 
@@ -7320,7 +7320,7 @@ gdjs.copyArray(asyncObjectsList.getObjects("NewTextInput2"), gdjs.Is_32someone_6
 
 
 const objects = gdjs.Is_32someone_63_46_46_46Code.GDNewTextInput2Objects3;
-gdjs.Is_32someone_63_46_46_46Code.userFunc0xc57950(runtimeScene, objects);
+gdjs.Is_32someone_63_46_46_46Code.userFunc0xe01dc8(runtimeScene, objects);
 
 }
 
@@ -7352,7 +7352,7 @@ gdjs.copyArray(asyncObjectsList.getObjects("NewTextInput2"), gdjs.Is_32someone_6
 
 
 const objects = gdjs.Is_32someone_63_46_46_46Code.GDNewTextInput2Objects3;
-gdjs.Is_32someone_63_46_46_46Code.userFunc0xf8fd60(runtimeScene, objects);
+gdjs.Is_32someone_63_46_46_46Code.userFunc0x134d958(runtimeScene, objects);
 
 }
 
@@ -7384,7 +7384,7 @@ gdjs.copyArray(asyncObjectsList.getObjects("NewTextInput2"), gdjs.Is_32someone_6
 
 
 const objects = gdjs.Is_32someone_63_46_46_46Code.GDNewTextInput2Objects3;
-gdjs.Is_32someone_63_46_46_46Code.userFunc0x13ccd30(runtimeScene, objects);
+gdjs.Is_32someone_63_46_46_46Code.userFunc0x17834b0(runtimeScene, objects);
 
 }
 
@@ -7410,7 +7410,7 @@ gdjs.copyArray(asyncObjectsList.getObjects("NewText2"), gdjs.Is_32someone_63_46_
 }
 
 
-};gdjs.Is_32someone_63_46_46_46Code.asyncCallback22790892 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Is_32someone_63_46_46_46Code.asyncCallback22791620 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Is_32someone_63_46_46_46Code.localVariables);
 {runtimeScene.getScene().getVariables().getFromIndex(117).setBoolean(false);
 }
@@ -7419,7 +7419,7 @@ asyncObjectsList.restoreLocalVariablesContainers(gdjs.Is_32someone_63_46_46_46Co
 gdjs.Is_32someone_63_46_46_46Code.eventsList69(runtimeScene, asyncObjectsList);} //End of subevents
 gdjs.Is_32someone_63_46_46_46Code.localVariables.length = 0;
 }
-gdjs.Is_32someone_63_46_46_46Code.idToCallbackMap.set(22790892, gdjs.Is_32someone_63_46_46_46Code.asyncCallback22790892);
+gdjs.Is_32someone_63_46_46_46Code.idToCallbackMap.set(22791620, gdjs.Is_32someone_63_46_46_46Code.asyncCallback22791620);
 gdjs.Is_32someone_63_46_46_46Code.eventsList70 = function(runtimeScene) {
 
 {
@@ -7431,7 +7431,7 @@ const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Is_32someone_63_46_46_46Code.localVariables);
 for (const obj of gdjs.Is_32someone_63_46_46_46Code.GDNewText2Objects1) asyncObjectsList.addObject("NewText2", obj);
 for (const obj of gdjs.Is_32someone_63_46_46_46Code.GDNewTextInput2Objects1) asyncObjectsList.addObject("NewTextInput2", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1.65), (runtimeScene) => (gdjs.Is_32someone_63_46_46_46Code.asyncCallback22790892(runtimeScene, asyncObjectsList)), 22790892, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1.65), (runtimeScene) => (gdjs.Is_32someone_63_46_46_46Code.asyncCallback22791620(runtimeScene, asyncObjectsList)), 22791620, asyncObjectsList);
 }
 }
 
@@ -13798,7 +13798,7 @@ gdjs.Is_32someone_63_46_46_46Code.GDTelefonObjects1.length = 0;
 }
 
 
-};gdjs.Is_32someone_63_46_46_46Code.userFunc0x197f4e0 = function GDJSInlineCode(runtimeScene, objects) {
+};gdjs.Is_32someone_63_46_46_46Code.userFunc0xdcc558 = function GDJSInlineCode(runtimeScene, objects) {
 "use strict";
 // 1. Giriş kutusundan metni al ve temizle
 let girdimeti = runtimeScene.getObjects("NewTextInput2")[0].getString();
@@ -13848,7 +13848,7 @@ gdjs.copyArray(asyncObjectsList.getObjects("NewTextInput2"), gdjs.Is_32someone_6
 
 
 const objects = gdjs.Is_32someone_63_46_46_46Code.GDNewTextInput2Objects3;
-gdjs.Is_32someone_63_46_46_46Code.userFunc0x197f4e0(runtimeScene, objects);
+gdjs.Is_32someone_63_46_46_46Code.userFunc0xdcc558(runtimeScene, objects);
 
 }
 
@@ -13888,7 +13888,7 @@ gdjs.copyArray(asyncObjectsList.getObjects("NewTextInput2"), gdjs.Is_32someone_6
 }
 
 
-};gdjs.Is_32someone_63_46_46_46Code.asyncCallback23097692 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Is_32someone_63_46_46_46Code.asyncCallback23098676 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Is_32someone_63_46_46_46Code.localVariables);
 {runtimeScene.getScene().getVariables().getFromIndex(117).setBoolean(false);
 }
@@ -13897,7 +13897,7 @@ asyncObjectsList.restoreLocalVariablesContainers(gdjs.Is_32someone_63_46_46_46Co
 gdjs.Is_32someone_63_46_46_46Code.eventsList77(runtimeScene, asyncObjectsList);} //End of subevents
 gdjs.Is_32someone_63_46_46_46Code.localVariables.length = 0;
 }
-gdjs.Is_32someone_63_46_46_46Code.idToCallbackMap.set(23097692, gdjs.Is_32someone_63_46_46_46Code.asyncCallback23097692);
+gdjs.Is_32someone_63_46_46_46Code.idToCallbackMap.set(23098676, gdjs.Is_32someone_63_46_46_46Code.asyncCallback23098676);
 gdjs.Is_32someone_63_46_46_46Code.eventsList78 = function(runtimeScene) {
 
 {
@@ -13909,7 +13909,7 @@ const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Is_32someone_63_46_46_46Code.localVariables);
 for (const obj of gdjs.Is_32someone_63_46_46_46Code.GDNewText2Objects1) asyncObjectsList.addObject("NewText2", obj);
 for (const obj of gdjs.Is_32someone_63_46_46_46Code.GDNewTextInput2Objects1) asyncObjectsList.addObject("NewTextInput2", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1.65), (runtimeScene) => (gdjs.Is_32someone_63_46_46_46Code.asyncCallback23097692(runtimeScene, asyncObjectsList)), 23097692, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1.65), (runtimeScene) => (gdjs.Is_32someone_63_46_46_46Code.asyncCallback23098676(runtimeScene, asyncObjectsList)), 23098676, asyncObjectsList);
 }
 }
 
@@ -14585,7 +14585,7 @@ gdjs.copyArray(runtimeScene.getObjects("NewText2"), gdjs.Is_32someone_63_46_46_4
 }
 
 
-};gdjs.Is_32someone_63_46_46_46Code.userFunc0xe3b358 = function GDJSInlineCode(runtimeScene, objects) {
+};gdjs.Is_32someone_63_46_46_46Code.userFunc0xc2e0b8 = function GDJSInlineCode(runtimeScene, objects) {
 "use strict";
 // İlk olarak, giriş kutusundan metni alıyorum ve temizliyorum.
 let girdimeti = runtimeScene.getObjects("NewTextInput2")[0].getString();
@@ -14639,7 +14639,7 @@ gdjs.copyArray(asyncObjectsList.getObjects("NewTextInput2"), gdjs.Is_32someone_6
 
 
 const objects = gdjs.Is_32someone_63_46_46_46Code.GDNewTextInput2Objects3;
-gdjs.Is_32someone_63_46_46_46Code.userFunc0xe3b358(runtimeScene, objects);
+gdjs.Is_32someone_63_46_46_46Code.userFunc0xc2e0b8(runtimeScene, objects);
 
 }
 
@@ -14681,7 +14681,7 @@ gdjs.copyArray(asyncObjectsList.getObjects("NewTextInput2"), gdjs.Is_32someone_6
 }
 
 
-};gdjs.Is_32someone_63_46_46_46Code.asyncCallback23155548 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Is_32someone_63_46_46_46Code.asyncCallback23156532 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Is_32someone_63_46_46_46Code.localVariables);
 {runtimeScene.getScene().getVariables().getFromIndex(117).setBoolean(false);
 }
@@ -14690,7 +14690,7 @@ asyncObjectsList.restoreLocalVariablesContainers(gdjs.Is_32someone_63_46_46_46Co
 gdjs.Is_32someone_63_46_46_46Code.eventsList83(runtimeScene, asyncObjectsList);} //End of subevents
 gdjs.Is_32someone_63_46_46_46Code.localVariables.length = 0;
 }
-gdjs.Is_32someone_63_46_46_46Code.idToCallbackMap.set(23155548, gdjs.Is_32someone_63_46_46_46Code.asyncCallback23155548);
+gdjs.Is_32someone_63_46_46_46Code.idToCallbackMap.set(23156532, gdjs.Is_32someone_63_46_46_46Code.asyncCallback23156532);
 gdjs.Is_32someone_63_46_46_46Code.eventsList84 = function(runtimeScene) {
 
 {
@@ -14702,14 +14702,14 @@ const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Is_32someone_63_46_46_46Code.localVariables);
 for (const obj of gdjs.Is_32someone_63_46_46_46Code.GDNewText2Objects1) asyncObjectsList.addObject("NewText2", obj);
 for (const obj of gdjs.Is_32someone_63_46_46_46Code.GDNewTextInput2Objects1) asyncObjectsList.addObject("NewTextInput2", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1.65), (runtimeScene) => (gdjs.Is_32someone_63_46_46_46Code.asyncCallback23155548(runtimeScene, asyncObjectsList)), 23155548, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1.65), (runtimeScene) => (gdjs.Is_32someone_63_46_46_46Code.asyncCallback23156532(runtimeScene, asyncObjectsList)), 23156532, asyncObjectsList);
 }
 }
 
 }
 
 
-};gdjs.Is_32someone_63_46_46_46Code.userFunc0x1ef4580 = function GDJSInlineCode(runtimeScene, objects) {
+};gdjs.Is_32someone_63_46_46_46Code.userFunc0x1e5aa70 = function GDJSInlineCode(runtimeScene, objects) {
 "use strict";
 // İlk olarak, giriş kutusundan metni alıyorum ve temizliyorum.
 let girdimeti = runtimeScene.getObjects("NewTextInput2")[0].getString();
@@ -14763,7 +14763,7 @@ gdjs.copyArray(asyncObjectsList.getObjects("NewTextInput2"), gdjs.Is_32someone_6
 
 
 const objects = gdjs.Is_32someone_63_46_46_46Code.GDNewTextInput2Objects3;
-gdjs.Is_32someone_63_46_46_46Code.userFunc0x1ef4580(runtimeScene, objects);
+gdjs.Is_32someone_63_46_46_46Code.userFunc0x1e5aa70(runtimeScene, objects);
 
 }
 
@@ -14805,7 +14805,7 @@ gdjs.copyArray(asyncObjectsList.getObjects("NewTextInput2"), gdjs.Is_32someone_6
 }
 
 
-};gdjs.Is_32someone_63_46_46_46Code.asyncCallback23163956 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Is_32someone_63_46_46_46Code.asyncCallback23164940 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Is_32someone_63_46_46_46Code.localVariables);
 {runtimeScene.getScene().getVariables().getFromIndex(117).setBoolean(false);
 }
@@ -14814,7 +14814,7 @@ asyncObjectsList.restoreLocalVariablesContainers(gdjs.Is_32someone_63_46_46_46Co
 gdjs.Is_32someone_63_46_46_46Code.eventsList85(runtimeScene, asyncObjectsList);} //End of subevents
 gdjs.Is_32someone_63_46_46_46Code.localVariables.length = 0;
 }
-gdjs.Is_32someone_63_46_46_46Code.idToCallbackMap.set(23163956, gdjs.Is_32someone_63_46_46_46Code.asyncCallback23163956);
+gdjs.Is_32someone_63_46_46_46Code.idToCallbackMap.set(23164940, gdjs.Is_32someone_63_46_46_46Code.asyncCallback23164940);
 gdjs.Is_32someone_63_46_46_46Code.eventsList86 = function(runtimeScene) {
 
 {
@@ -14826,7 +14826,7 @@ const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Is_32someone_63_46_46_46Code.localVariables);
 for (const obj of gdjs.Is_32someone_63_46_46_46Code.GDNewText2Objects1) asyncObjectsList.addObject("NewText2", obj);
 for (const obj of gdjs.Is_32someone_63_46_46_46Code.GDNewTextInput2Objects1) asyncObjectsList.addObject("NewTextInput2", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1.65), (runtimeScene) => (gdjs.Is_32someone_63_46_46_46Code.asyncCallback23163956(runtimeScene, asyncObjectsList)), 23163956, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1.65), (runtimeScene) => (gdjs.Is_32someone_63_46_46_46Code.asyncCallback23164940(runtimeScene, asyncObjectsList)), 23164940, asyncObjectsList);
 }
 }
 
@@ -15568,7 +15568,7 @@ isConditionTrue_0 = false;
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("NewText2"), gdjs.Is_32someone_63_46_46_46Code.GDNewText2Objects2);
 {for(var i = 0, len = gdjs.Is_32someone_63_46_46_46Code.GDNewText2Objects2.length ;i < len;++i) {
-    gdjs.Is_32someone_63_46_46_46Code.GDNewText2Objects2[i].getBehavior("Text").setText("Merhabalar, benim ismim 'FEHT' veya bir diğer tabir ile beraber; 'Fetcher, Educationer, Hyper, Technology' olarak tanıyabilirsiniz. Ben bir yapay zeka dil modeli olarak, belirli problemlerinize yardımcı olmak veya konuşmalar yapmak için tepkilerinizi beklemekteyimdir.");
+    gdjs.Is_32someone_63_46_46_46Code.GDNewText2Objects2[i].getBehavior("Text").setText("Merhabalar, benim ismim 'Fetcheducationer' veya bir diğer tabir ile beraber; 'Fetcher, Educationer, Hyper, Technology' olarak tanıyabilirsiniz. Ben bir yapay zeka dil modeli olarak, belirli problemlerinize yardımcı olmak veya konuşmalar yapmak için tepkilerinizi beklemekteyimdir.");
 }
 }
 }
@@ -15586,7 +15586,7 @@ isConditionTrue_0 = false;
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("NewText2"), gdjs.Is_32someone_63_46_46_46Code.GDNewText2Objects2);
 {for(var i = 0, len = gdjs.Is_32someone_63_46_46_46Code.GDNewText2Objects2.length ;i < len;++i) {
-    gdjs.Is_32someone_63_46_46_46Code.GDNewText2Objects2[i].getBehavior("Text").setText("Ben, 'FEHT' veya bir diğer tabir ile beraber; 'Fetcher, Educationer, Hyper, Technology' tanımlayabilirsiniz. Bir yapay zeka dil modeli olarak, komutlarınızı beklemekteyimdir.");
+    gdjs.Is_32someone_63_46_46_46Code.GDNewText2Objects2[i].getBehavior("Text").setText("Ben, 'Fetcheducationer' veya bir diğer tabir ile beraber; 'Fetcher, Educationer, Hyper, Technology' tanımlayabilirsiniz. Bir yapay zeka dil modeli olarak, komutlarınızı beklemekteyimdir.");
 }
 }
 }
@@ -15604,7 +15604,7 @@ isConditionTrue_0 = false;
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("NewText2"), gdjs.Is_32someone_63_46_46_46Code.GDNewText2Objects1);
 {for(var i = 0, len = gdjs.Is_32someone_63_46_46_46Code.GDNewText2Objects1.length ;i < len;++i) {
-    gdjs.Is_32someone_63_46_46_46Code.GDNewText2Objects1[i].getBehavior("Text").setText("Ben FEHT, az önce tercih etmiş olduğunuz bir yapay zeka asistanım. Bugün sizlere yardım etmem gereken konu nedir acaba?");
+    gdjs.Is_32someone_63_46_46_46Code.GDNewText2Objects1[i].getBehavior("Text").setText("Ben Fetcheducationer, az önce tercih etmiş olduğunuz bir yapay zeka asistanım. Bugün sizlere yardım etmem gereken konu nedir acaba?");
 }
 }
 }
@@ -15612,7 +15612,7 @@ gdjs.copyArray(runtimeScene.getObjects("NewText2"), gdjs.Is_32someone_63_46_46_4
 }
 
 
-};gdjs.Is_32someone_63_46_46_46Code.userFunc0xf14d20 = function GDJSInlineCode(runtimeScene, objects) {
+};gdjs.Is_32someone_63_46_46_46Code.userFunc0xf5daf8 = function GDJSInlineCode(runtimeScene, objects) {
 "use strict";
 window.addEventListener('keydown', (event) => {
     if ( event.key === 'c' ) {
@@ -24356,7 +24356,7 @@ gdjs.copyArray(runtimeScene.getObjects("Seçenek6"), gdjs.Is_32someone_63_46_46_
 gdjs.copyArray(runtimeScene.getObjects("Seçenek7"), gdjs.Is_32someone_63_46_46_46Code.GDSe_95231enek7Objects1);
 gdjs.copyArray(runtimeScene.getObjects("Seçenek8"), gdjs.Is_32someone_63_46_46_46Code.GDSe_95231enek8Objects1);
 gdjs.copyArray(runtimeScene.getObjects("Wheel"), gdjs.Is_32someone_63_46_46_46Code.GDWheelObjects1);
-{gdjs.evtsExt__PopUp__Confirm.func(runtimeScene, "Söz konusu bu lokal yapay zeka dil modelinin, asıl ismi; 'FEHT' veya kendisinin açılımı ile beraber, 'Fetcher, Educationer, Hyper, Technology' olarak geçmektedir. Çok yönlü bir modeldir ve çevre dostu şekilde, sadece yazılım mimarileri ile çalışır. Proje bağımsızdır ve hiçbir şekilde, 'Üçüncü Şahıs' konumunda bulunan kişilere; kullanıcı bilgilerini aktarmamaktadır. Genellikle, 'MediaWiki' altyapısını kullanan internet siteleri aracılığı ile sohbetler sırasında kendisini eğitir. Herhangi bir açık kaynaklı kod veya yapay zekalara ait uygulama programlama arayüzü yerine, 'GDevelop Block 5' ve 'JavaScript' adlı programlama dilleri ile geliştirilmektedir. İnternet üzerindeki bilgilere çok daha kolay şekilde ulaşmak, görsel üretimi ve düzenlemesi, şarkı sözü yazımı veya hem 'Türkçe' hem de yabancı diller ile bilgi aktarımı yapılması için kullanılması amaçlanmaktadır. Herhangi bir ek seviyeye ait ödeme karşılığında verilecek eklentilere sahip olmayacak ve günlük sınırlar getirilmeyecektir. 'Türkiye Cumhuriyeti Devleti' ülkesinin, lokal yapay zeka yazılımındaki süreçlerinde büyük rollere sahip olacağı öngörülmektedir. Yapay zeka modelimiz, sadece çok yönlü bir lokal yapay zeka dil modeli olduğundan dolaylı şekilde; hata yapma potansiyeline sahip bulunmaktadır. Kendisinin belirttiği veya internet ile entegre olduğu başkalarının değerlerine zarar verebilecek sözcükler 'Akozde Studios' ekibinin ve baş yazılımcısı Necati Rüzgar Özdemir'in sorumluluğunda değildir. Tamamen sizlere göre şekillenecek ve kendi düşüncelerini netleştirecektir. Kullanmakta olduğunuz 'FEHT' adıyla tanıtılan model, sadece ilk sürümünün erken erişim aşamasında bulunmaktadır. Az önce bahsettiğimiz çevre dostluluğuyla beraber, teknik şekilde bilgisayarınızı kendi sunucusuna dönüştürmektedir. Siyasi bağlantıları yoktur ve belirli politik durumlarda sıkça kullanılması önerilmez. Giriş yapabilmeniz için şartlarımız, politikalarımız ve güvenlik önlemlerimizi kabul etmeniz gerekmektedir.", null);
+{gdjs.evtsExt__PopUp__Confirm.func(runtimeScene, "Söz konusu bu lokal yapay zeka dil modelinin, asıl ismi; 'Fetcheducationer' olarak geçmektedir. Çok yönlü bir modeldir ve çevre dostu şekilde, sadece yazılım mimarileri ile çalışır. Proje bağımsızdır ve hiçbir şekilde, 'Üçüncü Şahıs' konumunda bulunan kişilere; kullanıcı bilgilerini aktarmamaktadır. Genellikle, 'MediaWiki' altyapısını kullanan internet siteleri aracılığı ile sohbetler sırasında kendisini eğitir. Herhangi bir açık kaynaklı kod veya yapay zekalara ait uygulama programlama arayüzü yerine, 'GDevelop Block 5' ve 'JavaScript' adlı programlama dilleri ile geliştirilmektedir. İnternet üzerindeki bilgilere çok daha kolay şekilde ulaşmak, görsel üretimi ve düzenlemesi, şarkı sözü yazımı veya hem 'Türkçe' hem de yabancı diller ile bilgi aktarımı yapılması için kullanılması amaçlanmaktadır. Herhangi bir ek seviyeye ait ödeme karşılığında verilecek eklentilere sahip olmayacak ve günlük sınırlar getirilmeyecektir. 'Türkiye Cumhuriyeti Devleti' ülkesinin, lokal yapay zeka yazılımındaki süreçlerinde büyük rollere sahip olacağı öngörülmektedir. Yapay zeka modelimiz, sadece çok yönlü bir lokal yapay zeka dil modeli olduğundan dolaylı şekilde; hata yapma potansiyeline sahip bulunmaktadır. Kendisinin belirttiği veya internet ile entegre olduğu başkalarının değerlerine zarar verebilecek sözcükler 'Akozde Studios' ekibinin ve baş yazılımcısı Necati Rüzgar Özdemir'in sorumluluğunda değildir. Tamamen sizlere göre şekillenecek ve kendi düşüncelerini netleştirecektir. Kullanmakta olduğunuz 'Fetcheducationer' adıyla tanıtılan model, sadece ilk sürümünün erken erişim aşamasında bulunmaktadır. Az önce bahsettiğimiz çevre dostluluğuyla beraber, teknik şekilde bilgisayarınızı kendi sunucusuna dönüştürmektedir. Siyasi bağlantıları yoktur ve belirli politik durumlarda sıkça kullanılması önerilmez. Giriş yapabilmeniz için şartlarımız, politikalarımız ve güvenlik önlemlerimizi kabul etmeniz gerekmektedir.", null);
 }
 {runtimeScene.getGame().getVariables().getFromIndex(0).setBoolean(false);
 }
@@ -24732,7 +24732,7 @@ for (var i = 0, k = 0, l = gdjs.Is_32someone_63_46_46_46Code.GDNewTextInput2Obje
 gdjs.Is_32someone_63_46_46_46Code.GDNewTextInput2Objects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(22522636);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(22523364);
 }
 }
 }
@@ -24796,7 +24796,7 @@ for (var i = 0, k = 0, l = gdjs.Is_32someone_63_46_46_46Code.GDNewTextInput2Obje
 gdjs.Is_32someone_63_46_46_46Code.GDNewTextInput2Objects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(22526948);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(22527676);
 }
 }
 }
@@ -25018,7 +25018,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(22537396);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(22538124);
 }
 }
 }
@@ -25076,7 +25076,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(22539724);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(22540452);
 }
 }
 }
@@ -25134,7 +25134,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(22542220);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(22542948);
 }
 }
 }
@@ -25192,7 +25192,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(22544516);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(22545244);
 }
 }
 }
@@ -25250,7 +25250,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(22547012);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(22547740);
 }
 }
 }
@@ -25308,7 +25308,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(22549308);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(22550036);
 }
 }
 }
@@ -25366,7 +25366,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(22551804);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(22552532);
 }
 }
 }
@@ -25424,7 +25424,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(22554100);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(22554828);
 }
 }
 }
@@ -25465,7 +25465,7 @@ for (var i = 0, k = 0, l = gdjs.Is_32someone_63_46_46_46Code.GDMenu_9595ButtonOb
 gdjs.Is_32someone_63_46_46_46Code.GDMenu_9595ButtonObjects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(22558572);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(22559300);
 }
 }
 if (isConditionTrue_0) {
@@ -26753,7 +26753,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(22628612);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(22629340);
 }
 }
 }
@@ -26798,7 +26798,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(22631868);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(22632596);
 }
 }
 }
@@ -26843,7 +26843,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(22637044);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(22637772);
 }
 }
 }
@@ -26888,7 +26888,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(22641348);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(22642076);
 }
 }
 }
@@ -26933,7 +26933,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(22645524);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(22646252);
 }
 }
 }
@@ -26978,7 +26978,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(22648780);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(22649508);
 }
 }
 }
@@ -28389,7 +28389,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(23133884);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(23134868);
 }
 }
 }
@@ -28417,7 +28417,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(23138828);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(23139812);
 }
 }
 }
@@ -28445,7 +28445,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(23145620);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(23146604);
 }
 }
 }
@@ -28647,7 +28647,7 @@ for (var i = 0, k = 0, l = gdjs.Is_32someone_63_46_46_46Code.GDNewText2Objects1.
 gdjs.Is_32someone_63_46_46_46Code.GDNewText2Objects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(23198652);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(23199636);
 }
 }
 }
@@ -28762,7 +28762,7 @@ gdjs.Is_32someone_63_46_46_46Code.eventsList90(runtimeScene);} //End of subevent
 gdjs.copyArray(runtimeScene.getObjects("NewText2"), gdjs.Is_32someone_63_46_46_46Code.GDNewText2Objects1);
 
 const objects = gdjs.Is_32someone_63_46_46_46Code.GDNewText2Objects1;
-gdjs.Is_32someone_63_46_46_46Code.userFunc0xf14d20(runtimeScene, objects);
+gdjs.Is_32someone_63_46_46_46Code.userFunc0xf5daf8(runtimeScene, objects);
 
 }
 
