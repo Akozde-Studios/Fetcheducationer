@@ -9,7 +9,7 @@ gdjs.evtsExt__LoadImageFromURL__LoadURLIntoImageResource = {};
 gdjs.evtsExt__LoadImageFromURL__LoadURLIntoImageResource.idToCallbackMap = new Map();
 
 
-gdjs.evtsExt__LoadImageFromURL__LoadURLIntoImageResource.userFunc0x1f63a10 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__LoadImageFromURL__LoadURLIntoImageResource.userFunc0x1f6e470 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 runtimeScene
     .getGame()
@@ -23,7 +23,7 @@ gdjs.evtsExt__LoadImageFromURL__LoadURLIntoImageResource.eventsList0 = function(
 {
 
 
-gdjs.evtsExt__LoadImageFromURL__LoadURLIntoImageResource.userFunc0x1f63a10(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__LoadImageFromURL__LoadURLIntoImageResource.userFunc0x1f6e470(runtimeScene, eventsFunctionContext);
 
 }
 

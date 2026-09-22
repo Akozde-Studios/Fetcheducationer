@@ -9,7 +9,7 @@ gdjs.evtsExt__ArrayTools__GlobalAppendAll = {};
 gdjs.evtsExt__ArrayTools__GlobalAppendAll.idToCallbackMap = new Map();
 
 
-gdjs.evtsExt__ArrayTools__GlobalAppendAll.userFunc0x1dfef88 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__ArrayTools__GlobalAppendAll.userFunc0x1e099e8 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 /** @type {gdjs.Variable} */
 const array = eventsFunctionContext.getArgument("Array");
@@ -26,7 +26,7 @@ gdjs.evtsExt__ArrayTools__GlobalAppendAll.eventsList0 = function(runtimeScene, e
 {
 
 
-gdjs.evtsExt__ArrayTools__GlobalAppendAll.userFunc0x1dfef88(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__ArrayTools__GlobalAppendAll.userFunc0x1e099e8(runtimeScene, eventsFunctionContext);
 
 }
 
