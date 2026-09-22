@@ -9,7 +9,7 @@ gdjs.evtsExt__Clock__TwelveHour = {};
 gdjs.evtsExt__Clock__TwelveHour.idToCallbackMap = new Map();
 
 
-gdjs.evtsExt__Clock__TwelveHour.userFunc0x18f14a8 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__Clock__TwelveHour.userFunc0x1939f30 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 const d = new Date();
 var hour = d.getHours();
@@ -26,7 +26,7 @@ gdjs.evtsExt__Clock__TwelveHour.eventsList0 = function(runtimeScene, eventsFunct
 
 
 const objects = [];
-gdjs.evtsExt__Clock__TwelveHour.userFunc0x18f14a8(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__Clock__TwelveHour.userFunc0x1939f30(runtimeScene, objects, eventsFunctionContext);
 
 }
 

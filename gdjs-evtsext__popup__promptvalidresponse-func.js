@@ -9,7 +9,7 @@ gdjs.evtsExt__PopUp__PromptValidResponse = {};
 gdjs.evtsExt__PopUp__PromptValidResponse.idToCallbackMap = new Map();
 
 
-gdjs.evtsExt__PopUp__PromptValidResponse.userFunc0x1f520d0 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__PopUp__PromptValidResponse.userFunc0x1f51d18 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 const promptResponse = runtimeScene.getVariables().get("__PopUp").getChild("Prompt").getAsString();
 eventsFunctionContext.returnValue = promptResponse !== "";
@@ -20,7 +20,7 @@ gdjs.evtsExt__PopUp__PromptValidResponse.eventsList0 = function(runtimeScene, ev
 {
 
 
-gdjs.evtsExt__PopUp__PromptValidResponse.userFunc0x1f520d0(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__PopUp__PromptValidResponse.userFunc0x1f51d18(runtimeScene, eventsFunctionContext);
 
 }
 
