@@ -9,7 +9,7 @@ gdjs.evtsExt__Clock__YearFunction = {};
 gdjs.evtsExt__Clock__YearFunction.idToCallbackMap = new Map();
 
 
-gdjs.evtsExt__Clock__YearFunction.userFunc0x1b0f2c8 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__Clock__YearFunction.userFunc0x1b1aea8 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 //Getting year values from device
 const d = new Date();
@@ -22,7 +22,7 @@ gdjs.evtsExt__Clock__YearFunction.eventsList0 = function(runtimeScene, eventsFun
 {
 
 
-gdjs.evtsExt__Clock__YearFunction.userFunc0x1b0f2c8(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__Clock__YearFunction.userFunc0x1b1aea8(runtimeScene, eventsFunctionContext);
 
 }
 
